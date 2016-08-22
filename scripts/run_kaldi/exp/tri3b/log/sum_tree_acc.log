@@ -1,0 +1,7 @@
+# sum-tree-stats exp/tri3b/treeacc exp/tri3b/1.treeacc exp/tri3b/10.treeacc exp/tri3b/11.treeacc exp/tri3b/12.treeacc exp/tri3b/13.treeacc exp/tri3b/14.treeacc exp/tri3b/15.treeacc exp/tri3b/16.treeacc exp/tri3b/17.treeacc exp/tri3b/18.treeacc exp/tri3b/19.treeacc exp/tri3b/2.treeacc exp/tri3b/20.treeacc exp/tri3b/3.treeacc exp/tri3b/4.treeacc exp/tri3b/5.treeacc exp/tri3b/6.treeacc exp/tri3b/7.treeacc exp/tri3b/8.treeacc exp/tri3b/9.treeacc 
+# Started at Thu Aug 18 15:39:42 EDT 2016
+#
+sum-tree-stats exp/tri3b/treeacc exp/tri3b/1.treeacc exp/tri3b/10.treeacc exp/tri3b/11.treeacc exp/tri3b/12.treeacc exp/tri3b/13.treeacc exp/tri3b/14.treeacc exp/tri3b/15.treeacc exp/tri3b/16.treeacc exp/tri3b/17.treeacc exp/tri3b/18.treeacc exp/tri3b/19.treeacc exp/tri3b/2.treeacc exp/tri3b/20.treeacc exp/tri3b/3.treeacc exp/tri3b/4.treeacc exp/tri3b/5.treeacc exp/tri3b/6.treeacc exp/tri3b/7.treeacc exp/tri3b/8.treeacc exp/tri3b/9.treeacc 
+LOG (sum-tree-stats:main():sum-tree-stats.cc:88) Wrote summed accs ( 37736 individual stats)
+# Accounting: time=3 threads=1
+# Ended (code 0) at Thu Aug 18 15:39:45 EDT 2016, elapsed time 3 seconds

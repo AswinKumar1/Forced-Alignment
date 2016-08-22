@@ -1,0 +1,32 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.16.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/axk964/Pipeline/saikrish/Forced-Alignment/Post_1/scripts/run_kaldi/mfcc/raw_mfcc_test.16.ark,/home/axk964/Pipeline/saikrish/Forced-Alignment/Post_1/scripts/run_kaldi/mfcc/raw_mfcc_test.16.scp 
+# Started at Thu Aug 18 15:30:01 EDT 2016
+#
+copy-feats --compress=true ark:- ark,scp:/home/axk964/Pipeline/saikrish/Forced-Alignment/Post_1/scripts/run_kaldi/mfcc/raw_mfcc_test.16.ark,/home/axk964/Pipeline/saikrish/Forced-Alignment/Post_1/scripts/run_kaldi/mfcc/raw_mfcc_test.16.scp 
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.16.scp ark:- 
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_317
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_318
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_319
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_320
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_321
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_322
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_323
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_324
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_325
+LOG (compute-mfcc-feats:main():compute-mfcc-feats.cc:177) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_326
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_327
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_328
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_329
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_330
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_331
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_332
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_333
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_334
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_335
+LOG (compute-mfcc-feats:main():compute-mfcc-feats.cc:177) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_336
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_337
+LOG (compute-mfcc-feats:main():compute-mfcc-feats.cc:181)  Done 21 out of 21 utterances.
+LOG (copy-feats:main():copy-feats.cc:100) Copied 21 feature matrices.
+# Accounting: time=4 threads=1
+# Ended (code 0) at Thu Aug 18 15:30:05 EDT 2016, elapsed time 4 seconds

@@ -1,0 +1,57 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri3b/graph_Wug/words.txt exp/tri3b/final.mdl exp/tri3b/graph_Wug/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split20/13/utt2spk scp:data/test/split20/13/cmvn.scp scp:data/test/split20/13/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/tri3b/final.mat ark:- ark:- |" "ark:|gzip -c > exp/tri3b/decode_test/lat.13.gz" 
+# Started at Thu Aug 18 15:46:18 EDT 2016
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri3b/graph_Wug/words.txt exp/tri3b/final.mdl exp/tri3b/graph_Wug/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split20/13/utt2spk scp:data/test/split20/13/cmvn.scp scp:data/test/split20/13/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/tri3b/final.mat ark:- ark:- |' 'ark:|gzip -c > exp/tri3b/decode_test/lat.13.gz' 
+apply-cmvn --utt2spk=ark:data/test/split20/13/utt2spk scp:data/test/split20/13/cmvn.scp scp:data/test/split20/13/feats.scp ark:- 
+transform-feats exp/tri3b/final.mat ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+ForcedAlignment_254 IS DALPORTO INBOUND BOPP ROTI DOPP EDGELL FREDA BAYUS DOUBLE POSTED NECKTIES LAACO BYGONE PICKETT AUTODIE GOBBLED WANDELL MUPPET ZORN UTMOST APRILE CAJOLE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_254 is -4.71305 over 904 frames.
+ForcedAlignment_255 MORTAL PROFITT KOLE BARMORE GINGOLD LUCKYN BISSETT BABETTE DAE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_255 is -4.46767 over 401 frames.
+ForcedAlignment_256 YEDDA GAMBONE DOUTHITT IS ARGALL KUBIS OUTBOUND GORR BARKETT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_256 is -4.62319 over 428 frames.
+ForcedAlignment_257 AAA GIESEKE KNOWLTON MIDTOWN SYMBOL BRIMM OZ 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_257 is -4.47992 over 356 frames.
+ForcedAlignment_258 IMMOTILE QUI GOGGLE SYPOLT INUNDATE BUGH MOLE BIDDLE HIS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_258 is -4.40184 over 471 frames.
+ForcedAlignment_259 ACED DADAMO IDLED PULP CHILCUTT ABUSIVE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_259 is -4.72512 over 236 frames.
+ForcedAlignment_260 MONCA BEMOAN LYTHGOE TAGANKA BRITNELL HOISTED MEDDERS MAAS OCT GIVENNESS SOBOL ZUBROD KILOS TIPPITT IMMOTILE BEVACQUA MELODIC GUBBELS ROCKETED UTHE REPORTABLE SUTTLE BLURTON CYNDI PAGODA MCGONIGLE BAEZA GAYTON LEPPARD BIBBY OTHERS SIEGENTHALER SENNE PROBITY GOTT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_260 is -4.62386 over 1658 frames.
+ForcedAlignment_261 ADOPTED REDOUBLE RESIGN YOES BARKETT WADA MASONIC ACIDIC DOUBLED BITESIZE INN MONAD BUGLES HEE DOPE WEATHERFORD BARTHA BUTTONED OBEYS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_261 is -4.54271 over 865 frames.
+ForcedAlignment_262 BAY CUMMINGTON BUCKTHORN OF BENELUX INTERDIGITAL LAUDABLE GERKIN SILICON BISIG MONAD BID BEHOOVE VOIDED INNATE ONSTAD UNAFFORDABLE BOTTLING DOTT BADAL ABUTS ORDAZ BONNOR KISSICK SEBI VIGLUND UTSEY THOU ABRASIVE RECAREY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_262 is -4.48482 over 1530 frames.
+ForcedAlignment_263 EXCEPTED ORRIN BIEBEL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_263 is -4.99394 over 128 frames.
+ForcedAlignment_264 EDMAR HINDUS ALLMOND BUFFIN UPP ROBOT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_264 is -4.66995 over 253 frames.
+ForcedAlignment_265 SILBAUGH AFFORDABLE ESKELSON OPERETTAS SOUCY OUTLIVE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_265 is -4.9451 over 256 frames.
+ForcedAlignment_266 EXHIBIT KABI 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_266 is -4.62917 over 91 frames.
+ForcedAlignment_267 MILPITAS IZATT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_267 is -4.64768 over 122 frames.
+ForcedAlignment_268 AISLINN EXCITEMENT MORSON PRITT DAVID WARDA BEGAT BEAUDETTE ENDED BETEL BARKETT HUSSITE REZEK SUTLEY NAVA IMPROVE ZIPPERS SLOBODA GUTT DIBBLED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_268 is -4.68447 over 861 frames.
+ForcedAlignment_269 ORGEL BOEPPLE BARBANO DOLLISON BUSICK OBJECTOR POTTEBAUM 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_269 is -4.90955 over 264 frames.
+ForcedAlignment_270 ORTIS SORGHUM BAYARD GUILFOYLE BORK DOHMEN POESCHL DUBACH ACQUITTAL DILEMMAS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_270 is -4.55846 over 470 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 21 utterances, errors on 0
+ForcedAlignment_271 ESTIMABLE RIETVELD BINDEL BERRIEN GROOME DEVOSS OCONNER NORRED LUNDELL NOTABLES ESTIMABLE BREATHE ILKA COBAUGH ASSORTED EYSTER BARTHA OFFILL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_271 is -4.74653 over 885 frames.
+ForcedAlignment_272 ARBUCKLE DUELS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_272 is -4.85306 over 97 frames.
+ForcedAlignment_273 PLY PELZER CASTILLO KINYON LOAMY PHY THOUSAND AHLERS HUTT WARTH PLOHN MEAKIN LONGVIEW THUMPED WIESE UNSYMPATHETIC THOUSAND OLOFSON FASTEST FORERO ROSEWOOD NOACK LATTNER DEMONS AKRON KROBOTH ANTIGEN DROHAN AWARDS HACKATHORN WENNINGER PENSYL SILL ACHES LOAMY ATHA WATT WINK COURTADE FOURTHQUARTER WHITLOW BUENING LUTHER ENDIVE WARMTH BIRTHING LAYER THROATED FOURTHQUARTER WINDMILL SILL ELKTON ROSELINE ZIONS HUMMING FOUNDED RUDASILL MORGENTHALER AUZENNE HOLLYWOOD HENNINGER WYSE AGHAZADEH ORDEAL MANTER VERVILLE ATHA HEFFEL OLESEN OHARRA EVANSVILLE CONAHAN VIA SADISTIC COMEDY RIGHTED HAFEN SOCIETY HILLE VENCILL SIXTEEN MESONS ALTA HIVE LADD IHASZ ASCHOFF ZYCAD MORTIMER HASSEY HOWITT HATH HATHORN VERT HUSAIN SLAWSON MESONS CENTRALE OFFHAND PASSEL SEAHOLM LIASSON STORED WHOSOEVER SENTINEL PENSYL PIVER VAUXHALL MISCAST HAWN GNC BETHESDA ASCOT HANNY HEARTFELT LYNETTE STETSON ATOLL WHOEVER ASCOT AMPOL ICY KIGGINS AVERTING CRANEY ITEL ANCHORING THEOLA EST AMITAI TIGON THALER THEILEN INKATHA EINHORN ETHELINE KATHLENE INGRIA CENITH ELENA EIR PENIKESE HALITE ENT VESELY OTTO TISDALE INGOT MOREHEAD THIGH THING BANGHART RIVA HANKE THEILEN WATLEY WAYNESVILLE KALTHOFF LOCKNER FLAVORFUL INDEPENDENT BONET ADVANTA HESTIA MANURE NUMAC THIGHS ADMITTING SVENDSEN SUMMIT VINSANT VANDRIEL BLINDED TOMKINSON BANNING INSIDE ARNWINE SLEEVES ENHANCEMENT LISETTE STARTING INCEST STENGLEIN FEITH INCREMENTS HEINTZE IBANEZ DAZZLING DISINCENTIVE SILL HORNUNG HIGHAM TASKING TYPHOON GRIDIRON INCIDENCES HARDENED RETICENCE LACKMAN SAXONS DINSMORE GLAXO HERNANDES IMMENSELY ZIESMER HENSON BANDS HURTT MONES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_273 is -4.55629 over 15018 frames.
+LOG (transform-feats:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -91.0564 over 26778 frames.
+LOG (transform-feats:main():transform-feats.cc:161) Applied transform to 21 utterances; 0 had errors.
+ForcedAlignment_274 STIVER SILL LADD CALIFORNIA THIEVERY CYNWYD LYTLE ANTITAX EDITHA WESTIN TWILL VALLI HORVAC VEIGEL ANTITAX USAGES WHITEHILL VILIFY HILLY NEVES VELTRE SUNDAY THILL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_274 is -4.34225 over 1484 frames.
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:175) Time taken 66.5483s: real-time factor assuming 100 frames/sec is 0.248519
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:178) Done 21 utterances, failed for 0
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:180) Overall log-likelihood per frame is -4.56943 over 26778 frames.
+# Accounting: time=67 threads=1
+# Ended (code 0) at Thu Aug 18 15:47:26 EDT 2016, elapsed time 67 seconds

@@ -1,0 +1,854 @@
+# lattice-scale --inv-acoustic-scale=19 "ark:gunzip -c exp/tri2b/decode_test/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/tri2b/graph_Wug/words.txt ark:- ark,t:exp/tri2b/decode_test/scoring/19.tra 
+# Started at Thu Aug 18 15:38:36 EDT 2016
+#
+lattice-best-path --word-symbol-table=exp/tri2b/graph_Wug/words.txt ark:- ark,t:exp/tri2b/decode_test/scoring/19.tra 
+lattice-scale --inv-acoustic-scale=19 'ark:gunzip -c exp/tri2b/decode_test/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_001, best cost 780.151 + 9174.68 = 9954.83 over 2898 frames.
+ForcedAlignment_001 SILL SEELMAN DAVIDS BERRARD BABYSAT INOPPORTUNE CONCEAL DEDUCED ABUTTING DEBTHOLDER PONZETTI SIGNATURE DOUBLED JAUDON BOGGUS IMPORTED SILL BJOERN CYSTIC DUNKELBERGER BERGAMO TIPTOED BLUNTED ATHANASSIOU IMBURGIA BAILOUT ZIOMEK LAUPER RESEALABLE ENTREPRENEUR CABALLERO OERTEL KORTHALS DISTASI ABBAS HIGGINBOTTOM GODBOUT LESIAK SILL BJORGE BUILDABLE SILL BENEFITTED TAYS AURORAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_002, best cost 100.986 + 1032.63 = 1133.62 over 322 frames.
+ForcedAlignment_002 BURCHETT RECEDED ARTIFICIAL DEFECTING CORNEL DUBOW 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_003, best cost 135.547 + 1638.32 = 1773.87 over 508 frames.
+ForcedAlignment_003 MORGENSTERN ABORTED AFFRONTS DUNKELBERGER BOLDLY ACERRA CYLINDER TILFORD 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_004, best cost 173.487 + 2225.62 = 2399.1 over 716 frames.
+ForcedAlignment_004 ISRAEL MOBERG DIBERNARDO SILL BAYUK BELLEVILLE LABOSSIERE ACCUSATIVE BOLDEST AUDUBON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_005, best cost 375.625 + 4614.26 = 4989.89 over 1482 frames.
+ForcedAlignment_005 ACTING SILVERDOME GLOBULIN BIDWILL OBERLE QUIGGLE CONABLE BOARDMAN SILL DISPLACE OSMER BUCKLAND BUSTLE DELBIANCO SIGNET MOP GAMBOA SINEATH PICTON ABIO QUADRUPLED SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_006, best cost 34.843 + 343.661 = 378.504 over 131 frames.
+ForcedAlignment_006 KNIFFIN DIDEOXYCYTIDINE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_007, best cost 449.878 + 5709.44 = 6159.31 over 1801 frames.
+ForcedAlignment_007 EE FOMBY CYNTHIE DADAMO DOUBLEDAY JOS BISUTEKI GAMBIA BEGUN EXAMPLE UNAFFECTED REGATTAS DIDION INDEPENDENCE SUBURBANS YUK GEBBIA BEBEE NOGGLE SILL BELABORED OBLIGATE ODNEAL BADAMI CHUCKLED UNAUTHENTIC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_008, best cost 69.1563 + 716.431 = 785.587 over 249 frames.
+ForcedAlignment_008 FIMBRES OUTMODED UNAUTHENTIC ORIENTAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_009, best cost 37.34 + 502.762 = 540.102 over 163 frames.
+ForcedAlignment_009 HUSTLERS DAUNTED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_010, best cost 67.0137 + 848.69 = 915.704 over 269 frames.
+ForcedAlignment_010 EDAM ROSSELL DAIGLE SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_011, best cost 119.888 + 1424.04 = 1543.92 over 454 frames.
+ForcedAlignment_011 UNSTOPPABLE ROBINSON WANDEL ISBILL BIBBY GOGGLES SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_012, best cost 312.928 + 3698.49 = 4011.42 over 1157 frames.
+ForcedAlignment_012 IDIOM AFFORDABLE TECHNICAL DEVELOPER THORNDIKE SILL KOREA ENCYCLICAL SIMPER SAVILLE BOTTLES BUMPAS MONTVILLE BOTTLED LABODA ZIYAD MOCHEL ADULTERER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_013, best cost 83.9716 + 783.307 = 867.279 over 251 frames.
+ForcedAlignment_013 BAYOG BUBBLY SUTHARD LEGITIMATE IBANEZ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_014, best cost 173.306 + 1873.63 = 2046.93 over 570 frames.
+ForcedAlignment_014 LAPAGLIA GRIGOLI ESTOK LONDONERS DAUNTED GOETTEL PERSISTENT ARCADIAN DISGRUNTLEMENT BARKETT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_015, best cost 51.0147 + 481.066 = 532.081 over 154 frames.
+ForcedAlignment_015 MAZON SOLOMOS BULLDOZE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_016, best cost 97.1708 + 815.62 = 912.791 over 271 frames.
+ForcedAlignment_016 EAT LOFASO ODONNELL BOLSTERS BAUBLES RIJN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_017, best cost 32.0929 + 202.67 = 234.763 over 63 frames.
+ForcedAlignment_017 EASTER GOETTL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_018, best cost 16.2287 + 69.7163 = 85.9449 over 26 frames.
+ForcedAlignment_018 EADE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_019, best cost 55.4609 + 740.166 = 795.627 over 277 frames.
+ForcedAlignment_019 FUKE CASADY OBLIVION 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_020, best cost 170.346 + 1845.06 = 2015.41 over 568 frames.
+ForcedAlignment_020 BUSBOYS UPJOHN MUMBLING EXPLOSIVELY DEANDRADE PORTA HUBLER BUNGALOW GUSTAVO CORINTO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_021, best cost 69.3843 + 783.807 = 853.191 over 252 frames.
+ForcedAlignment_021 MINIMAL CECOS PASCUTTO MORTAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_022, best cost 34.3585 + 255.75 = 290.109 over 84 frames.
+ForcedAlignment_022 ESTABLISH VIAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_191, best cost 264.283 + 2396.12 = 2660.4 over 789 frames.
+ForcedAlignment_191 MOLSTAD WINONAH MOSKAL DUGDALE MOKA BAZILE WONDA BLENDA BOONDOGGLE BRENDSEL POTAPOV RINDAHL UGLIEST DALPORTO SUPPA YVES 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_192, best cost 354.076 + 3981.46 = 4335.54 over 1332 frames.
+ForcedAlignment_192 ATHANAS BODIES SOB WINNABLE HEADLEY SICHEL TWITTY THADDEUS ILL SPONAUGLE PRECEPT BODLEY GODREJ LAWBREAKERS PITIABLE BASU PORCELAIN DEADLOCKS OGLEBAY GUDGEL EAT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_193, best cost 135.346 + 1678.3 = 1813.65 over 528 frames.
+ForcedAlignment_193 EMPLOYABLE PORTERFIELD STOCKBURGER ASSAULT SILL BORDAS ALLEGE ORSI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_194, best cost 218.36 + 2164.03 = 2382.39 over 718 frames.
+ForcedAlignment_194 YVES GAMBLERS GOBBLE SABATO JUGGLES DUNKERLEY GULLIBILITY OUTLER SWISTAK KJELL BACHELDER KAPLER ZERBE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_195, best cost 102.892 + 1044.72 = 1147.61 over 358 frames.
+ForcedAlignment_195 NUSS EXTERIORS YONAN NUDELMAN ESTIMABLE SEMI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_196, best cost 32.5305 + 188.718 = 221.249 over 66 frames.
+ForcedAlignment_196 ABO THORBERTA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_197, best cost 119.897 + 1495.68 = 1615.57 over 468 frames.
+ForcedAlignment_197 HEON BIBLIOGRAPHY BUETER GNAIZDA BUTTERMILK BELLCORE SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_198, best cost 21.6338 + 176.956 = 198.59 over 99 frames.
+ForcedAlignment_198 VATH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_199, best cost 1847.46 + 30226.1 = 32073.6 over 10926 frames.
+ForcedAlignment_199 EXPORTED NEWSPRINT UNDERSELLING CALIF LEXIS DEALER TEST RUTLEDGE REFLEXES AUTOMOBILE TODAY PASSEL MYRNA THILL ATHENA VANSKIVER PESSIMIST OVESON HOMESLEY LEINONEN HOMANS VERVILLE AZURA OAD TAFOYA OPPOSITE HOLTHUS HORNET PLEASANTVILLE SLOWEST HELLENIC WENIG DESENA EAU CALIF CLASSIC PROTESTING FORTY NINE ONLY ECKERLE SUNIA PANNILL HOBBLE ESCOBAR UNCARING VALUELESS HARTLING BREAKDOWN HEARTH EASTDIL VATH VILLE RATIFIES ACIDIFY HAH VRBA FANECH AORTA UPGRADED DANNEMEYER FORK OSTERHAUS EMISSARIES HOEFLE SIMAS ADJUSTABLE LUSCOMBE TEMKIN FOERTSCH ARCTIC LIMONITE FEDORKO SINCERE RACINE DURIO DEATH BESTWICK PEPPIN JONASSAINT EUROPHILE HOLLISTER PROPERLY HINDQUARTERS DIVORCED WORE THUMA RIBAVIRIN COLICCHIO MAHLMAN ARTIST ADORE MODELS PRINCELY SUCHECKI ADULT COMPLEMENT HARJU KEMPA DISSIPATED RECALL LUANDA OUTDO CRAKER SAFER HOME 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_200, best cost 597.891 + 13514.5 = 14112.4 over 4501 frames.
+ForcedAlignment_200 SILL TAFOYA OPPOSITE HOLTHUS HOH WATSONVILLE SLOWEST HUFF NORDIC WHITEHILL EAU CALIF CLASSIC PROTESTING FORTI NINE ONLY ECKERLE SUNIA MONOPOLIZED HIGHFLIER SILL SILL EPHLIN PASSEL DORCHESTER WAVE SILL PASSED HUNTON THWART HATALA HALFHILL CALLICOTT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_201, best cost 178.185 + 1522.17 = 1700.36 over 510 frames.
+ForcedAlignment_201 VIANA ESSIG LINDEMANN EXHIBITED BUBBLES ABBADO GLITZY APPALLED WANDEL CORDOVA STARGATE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_202, best cost 34.7424 + 274.232 = 308.974 over 83 frames.
+ForcedAlignment_202 ARSDALE ALLING 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_203, best cost 251.341 + 3110.08 = 3361.42 over 1007 frames.
+ForcedAlignment_203 ELLERTSON BEDBUGS SICKEST ALBION DEKOM BUMPY BUCKED WADDED PURITANISM IZATT BALLPARK SILL ROBOT GODZILLA SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_204, best cost 87.9178 + 1408.71 = 1496.63 over 483 frames.
+ForcedAlignment_204 HUTH HAWKINSON REPORTEDLY DAVIDIAN DULLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_205, best cost 67.0484 + 621.158 = 688.207 over 204 frames.
+ForcedAlignment_205 EDBERT RAPOPORT MOLDED THORNELL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_206, best cost 114.634 + 1048.45 = 1163.08 over 328 frames.
+ForcedAlignment_206 GOBBLEDYGOOK PREDOMINANCE YORBA SYCAMORE DENOBLE INDOMITABLE SEBI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_207, best cost 132.319 + 1503.63 = 1635.94 over 469 frames.
+ForcedAlignment_207 SECLUDED BOGGUS HUKILL DECORTE UDELL GAULKE DITTON SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_208, best cost 57.936 + 1138.28 = 1196.21 over 354 frames.
+ForcedAlignment_208 LIMOGES RIDGEFIELD SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_209, best cost 320.425 + 4200.71 = 4521.13 over 1342 frames.
+ForcedAlignment_209 UNKNOWABLE SYMPATHIZERS KOTULA DAPOZZO PINOCCHIO CYNTHIA SINEATH DEPRESSED SYLLABLE HUEGLIN DAISIES INEPTLY SIGLIN PICOTTE DEMOBILIZE CORDOBAS BOWSED CABLETRON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_210, best cost 192.766 + 2271.86 = 2464.62 over 747 frames.
+ForcedAlignment_210 FINGERBOARD MODULAR MIDDLEBURY EMMYS DUNDEE DIBLASIO KNIFFIN GOLDBAUM CYMBAL LEFEBURE DIPALMA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_211, best cost 20.0332 + 214.549 = 234.582 over 64 frames.
+ForcedAlignment_211 ADULTERER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_212, best cost 34.7048 + 282.477 = 317.182 over 99 frames.
+ForcedAlignment_212 DICKHAUT RENTON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_213, best cost 169.58 + 1907.08 = 2076.66 over 665 frames.
+ForcedAlignment_213 JUNGELS KRICHBAUM GABON BOASTED EMMYS MEZEY WILIAMS DARBY UNSUITABLE SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_214, best cost 36.5791 + 384.048 = 420.627 over 116 frames.
+ForcedAlignment_214 MULTIPLES RECORDABLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_215, best cost 62.4185 + 393.092 = 455.511 over 125 frames.
+ForcedAlignment_215 IKLE BUBBLES AMATO SAHGAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_216, best cost 89.4089 + 939.346 = 1028.75 over 338 frames.
+ForcedAlignment_216 ELRON DOLGIN SIMSON NELLCOR BABA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_217, best cost 281.307 + 3025.28 = 3306.59 over 1009 frames.
+ForcedAlignment_217 WALPOLE KODAMA AIDED BAILOUT CITADEL DESOUZA RESIDUAL MCDOUGALD SILVAS IGOU AGENDAS YORKERS BONASERA BALSAM EUCHARIST IMBALANCE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_218, best cost 455.339 + 5623.34 = 6078.68 over 1888 frames.
+ForcedAlignment_218 HILBERT WIESEL DENTSU SILT DIPPEL ASBILL GRUMBLE BIBBO SILL SILL SYNDICATS YUNDE GAZED WINNABLE POLI POLZER YOES PULPWOOD DORSETT LIMITLESS AMANO DEJOSEPH YQUEM COBRAS CINTHIE IPTAY KISHBAUGH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_219, best cost 119.206 + 1118.47 = 1237.68 over 397 frames.
+ForcedAlignment_219 FENICHELL KOLBO STORMONT DULCIBELLE MAFFETT INTAN DISSENTED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_220, best cost 84.3252 + 869.019 = 953.344 over 280 frames.
+ForcedAlignment_220 ALBION OPAL BUSSERT AFFORDABILITY AMERICA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_221, best cost 32.9167 + 225.012 = 257.929 over 81 frames.
+ForcedAlignment_221 EDDINS BRACY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_222, best cost 55.1269 + 570.638 = 625.765 over 189 frames.
+ForcedAlignment_222 REGARDLESS AIRPORT WALPOLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_223, best cost 84.9598 + 835.018 = 919.977 over 301 frames.
+ForcedAlignment_223 HEEB BAAB OVERGAARD DUBUQUE LILCO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_224, best cost 70.0103 + 794.134 = 864.144 over 260 frames.
+ForcedAlignment_224 SYMPATHY MS HUBLER BICOASTAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_225, best cost 138.752 + 1445.71 = 1584.46 over 475 frames.
+ForcedAlignment_225 BUFFET DIABOLICAL MIDYETT MOLTER BRESSETTE DORDIES DREYFUS DONUT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_226, best cost 129.417 + 1101.02 = 1230.44 over 351 frames.
+ForcedAlignment_226 ARGONNE NOGGLE MANNING QUATTLEBAUM PORRAS NOTABLES LUCKENBILL EBEY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_227, best cost 263.294 + 2541.73 = 2805.02 over 846 frames.
+ForcedAlignment_227 AMBIENT MARKERS BLOME CIBRO APPROVALS YI BORGIA DOUTHIT PREDOMINANCE YORKERS DEPUTY UDALL BARCOMB PADUCAH MOTTERN BREVITY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_228, best cost 19.8091 + 189.797 = 209.606 over 68 frames.
+ForcedAlignment_228 TRANSPARENT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_229, best cost 33.8736 + 256.001 = 289.875 over 93 frames.
+ForcedAlignment_229 MASTER ELBAUM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_230, best cost 103.621 + 1123.82 = 1227.45 over 385 frames.
+ForcedAlignment_230 ALBRIGHT DOUBLE CUBIST BROOKFIELD ROBOTS BLOCKAGE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_231, best cost 105.232 + 1905.62 = 2010.85 over 605 frames.
+ForcedAlignment_231 ISBELL BOYKO DENBOW BORTNICK DOUBLEDAY SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_232, best cost 288.081 + 3676 = 3964.08 over 1226 frames.
+ForcedAlignment_232 DISTORTED BLUNDELL ADMITTANCE DOPAMINE BEAUCE STICKBALL SIE IZARD ABSORBERS SECT ETHELYN DOMINOS SILL SUPERDOT BHATTACHARJY DILIP MONDRAGON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_233, best cost 69.8169 + 741.122 = 810.938 over 245 frames.
+ForcedAlignment_233 CEYLON MISSIVE GIVENNESS UCCEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_234, best cost 269.843 + 3179.47 = 3449.32 over 1061 frames.
+ForcedAlignment_234 SYMBOL SEDUCTIVE HULME SERUM BOBBO SUBURB BORTEL BODELL BODA PROPOSALS GUPTILL VERON RAYBUCK BAILOUTS GUTTERED DEBAUN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_235, best cost 406.825 + 4435.22 = 4842.05 over 1398 frames.
+ForcedAlignment_235 INTERCEPTED GUNNELLS MCDOUGALL KEZIAH SILL THEY YUST ALBACORE BUTTERCUP BUTTARS ODOMETER DOBLE JANNOTTA MUPPET SILL OBJECTED DEBLASIO YOES DEMONIC EYESTONE DOUBLETREE LABODA ZEALOUSLY QIAO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_236, best cost 36.7128 + 385.955 = 422.668 over 127 frames.
+ForcedAlignment_236 IMPRISONED ATTEBERY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_237, best cost 83.8715 + 1276.63 = 1360.51 over 408 frames.
+ForcedAlignment_237 MEIYUH TIDY MARTINIS BOARDBENT SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_238, best cost 203.226 + 8308.13 = 8511.36 over 2918 frames.
+ForcedAlignment_238 VANDEHEI VEDETTE HAFTA HENAO LATVIA PASSEL VATH HUFFING 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_239, best cost 1122.01 + 27396.9 = 28518.9 over 10449 frames.
+ForcedAlignment_239 ANACIN WRYE WAVERING BOYZ LINDAMOOD VAUDEVILLE NORNA MARBIL CICERONE FORLENZA UNWANTED RHO SILL VARONE KNILL VULCAN CALKINS JACKHAMMERS NECKLACES WRYE SCRATCHES QUANTIFY OVERKILL CAHOUET TENT DHONDT VOTH ANAYLSTS VATH HEIMLICH HYBRITECH KATHAN EPPNER SNAFUS MOFFA SILL ATHEISM VATH VACHA FLATH SOUTHLIFE SOMERSET FILING ETHICIST POLICY LAZULITE THILL GOTHIC ASSAIL VICES LILL VLAHOS SOUTHWEST DETHLOFF ETHYOL FATS TRANSPARENCY EAU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_240, best cost 316.212 + 8145.19 = 8461.4 over 2989 frames.
+ForcedAlignment_240 HALFHILL HARMATA ASSASSINS SILL IHLE HATZ ZEST VLAD ZAUCHA SIMCHA AGILE AMALEA ASSAYER MISREADING SEEMALA LEONE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_241, best cost 289.148 + 4577.68 = 4866.83 over 1499 frames.
+ForcedAlignment_241 HUDLER ABORTIVE ADOPTED REALITIES SECURED LIPNICK SILBERGELD MARCIL SIBBY DORTA CHAUVINISTIC DOUBLES LIEBELT MONICAL WALLMAN SINEATH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_242, best cost 18.3028 + 461.83 = 480.133 over 135 frames.
+ForcedAlignment_242 SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_243, best cost 137.773 + 1774.83 = 1912.61 over 570 frames.
+ForcedAlignment_243 RADEMAKER MISDIAGNOSED LOSADA MEDELLIN BELGO COTLER EXPORTABLE SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_244, best cost 134.338 + 1458.5 = 1592.84 over 510 frames.
+ForcedAlignment_244 DAELIM SILICATE ASBELL MANSELL RPM ROSSANO SOJOURN DUB 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_245, best cost 101.556 + 1042.62 = 1144.17 over 358 frames.
+ForcedAlignment_245 VISTAS EISA OKUBO JACHIM DEDMAN GASSETT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_246, best cost 17.8213 + 146.974 = 164.796 over 49 frames.
+ForcedAlignment_246 ONGPIN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_247, best cost 215.408 + 1966.15 = 2181.55 over 654 frames.
+ForcedAlignment_247 ABLEST COASTED AUBEL KUPIEC DOGGEDLY MAPLES EVOCATIVE DEDHAM KNAUS BAUMEL SURLES ABOMINABLE GWIZDALA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_248, best cost 307.139 + 2819.51 = 3126.65 over 943 frames.
+ForcedAlignment_248 REDUNDANT BOLDA OPPOSITE INDICTMENT WINNABLE EDQUIST ABUSIVE DERCHIN CYMBAL BUDREAU FURTHERS ADNEY DONAPRIA TIPPITT YELDELL DEVIL INNOMINATE OUTLOOK 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_249, best cost 311.637 + 3499.63 = 3811.27 over 1270 frames.
+ForcedAlignment_249 DONALDO DICEON BERTOLD GACY ASEAN BOLAM AON APOSTOL MASSA MIMICKED YOUREE MAIMONE ASBILL PULMOZYME METED OUTFIT INSTONE DOSSETT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_250, best cost 236.366 + 2371.64 = 2608.01 over 778 frames.
+ForcedAlignment_250 EONS MULTIPLES ADOBE DEBIT SOLVABLE BAKEWELL FOLLICLE REDOUBTABLE HILPERT SIT KENNETH GOLDEN BEGAT GEYER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_251, best cost 420.087 + 4602.74 = 5022.83 over 1490 frames.
+ForcedAlignment_251 LIDDLE MENTHOL BASEBALLS BERTELS IZZY BEUMER WARMUP BABBIT UMPTEEN MODED DIA ISAACKS PICTET DUCOMMUN VAUDEVILLE HABENICHT DOPPLER LEKACHMAN HUGEST CORSO ORMISTON UNAUTHENTIC BADOLATO PASOK 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_252, best cost 86.7776 + 912.157 = 998.934 over 338 frames.
+ForcedAlignment_252 ADMIT ONSITE DOUBLEDAY MCCONNAUGHEY ABADIE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_253, best cost 54.7823 + 589.097 = 643.88 over 215 frames.
+ForcedAlignment_253 DYBAS BEMOANS DAULT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_254, best cost 262.692 + 2832.03 = 3094.72 over 904 frames.
+ForcedAlignment_254 IS DALPORTO DUBACH MODICA EDGELL FRIENDLIEST DAMATO SECURITIZED LAACO BYGONE PICTET AUTODIE GOBBLED SILL FELKEL CAJOLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_255, best cost 104.358 + 1200.28 = 1304.63 over 401 frames.
+ForcedAlignment_255 MORTAL GRAPHICAL MUCHMORE GINGOLD LUCKYN PRECIPITATE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_256, best cost 121.999 + 1279.86 = 1401.86 over 428 frames.
+ForcedAlignment_256 YEDDA GAMBONE DOUTHITT ESPADA ALTAVISTA ABOVEBOARD OUTFIT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_257, best cost 102.127 + 1019.38 = 1121.51 over 356 frames.
+ForcedAlignment_257 AAA GIESEKE KNOWLTON MIDTOWN ZIMBABWE MAZ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_258, best cost 107.961 + 1332.81 = 1440.77 over 471 frames.
+ForcedAlignment_258 IMMOTILE REDOUBLE CIPOLLONE BIGBEE MOLE PENALTIES 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_259, best cost 70.9957 + 737.398 = 808.394 over 236 frames.
+ForcedAlignment_259 DADAMO AIGUEBELLE CHILCOTT ABUSIVE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_260, best cost 392.825 + 5071.94 = 5464.77 over 1658 frames.
+ForcedAlignment_260 MONCA BEMOAN EXTOLLED LOOKABILL MEDDERS MAS OCT GEMFIBROZIL GLISSANDI KILOS DEPENDABLE SILL REPORTABLE SUTTLE BOYDSTUN BIDCO DOMICAL BAEZA GAYTAN LABUDA GETHERS SIEGENTHALER SUPERAMERICA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_261, best cost 234.587 + 2603.18 = 2837.77 over 865 frames.
+ForcedAlignment_261 ADOPTED BEETHOVEN DOSSANTOS BARKETT MASONIC ACIDIC DUGALD BITESIZE INN MONAD BUGLES NEEDLEPOINT MARCILLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_262, best cost 388.078 + 4515.23 = 4903.31 over 1530 frames.
+ForcedAlignment_262 BICKHAM UNCOMPETITIVE BENELUX INTERDIGITAL LAUDABLE GERKIN MCGUCKIN SIMONA ILLEGALS CORRUGATED ONSTAD UNAFFORDABLE BOTTLED INDUCTED LIPPERT SAWDUST MCKISSICK SEBI VIGLUND TUXEDO ABRASIVE RECAREY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_263, best cost 49.653 + 393.901 = 443.554 over 128 frames.
+ForcedAlignment_263 EXCEPTED OWENBY WOHL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_264, best cost 66.2249 + 775.441 = 841.666 over 253 frames.
+ForcedAlignment_264 EDMAR HINDUS SILL BROKAW 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_265, best cost 96.4209 + 805.505 = 901.926 over 256 frames.
+ForcedAlignment_265 SILBAUGH AFFORDABLE ESKELSON OPERETTAS SOUCY OUTLIVE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_266, best cost 19.77 + 275.897 = 295.667 over 91 frames.
+ForcedAlignment_266 SECURITY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_267, best cost 36.3797 + 364.377 = 400.757 over 122 frames.
+ForcedAlignment_267 MILPITAS IZATT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_268, best cost 230.964 + 2615.65 = 2846.61 over 861 frames.
+ForcedAlignment_268 AISLINN EXCITEMENT EXEMPTED DAVID WANNABE DEBOW EPIDERMAL ARGUELLES ONDRACEK SALMONELLA IMPROVES APPROVABLE DEDUCTIBLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_269, best cost 66.9066 + 882.261 = 949.168 over 264 frames.
+ForcedAlignment_269 SILL SIMPLISTIC OBJECTIVE POTTEBAUM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_270, best cost 138.003 + 1418.62 = 1556.62 over 470 frames.
+ForcedAlignment_270 OLDEST ORIENTED GUILFOYLE BORCHELT MANTEUFEL DUBACH ACQUITTAL DILEMMAS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_271, best cost 269.718 + 2702.33 = 2972.04 over 885 frames.
+ForcedAlignment_271 ESTIMABLE RIETVELD BINDEL BERRIAN GROOME DEVOSS SACCOMANNO MUNDELL NOTABLES ESTIMABLE GRIEGO KIKTA ASSORTED EYSTER BARTHA OFFILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_272, best cost 17.477 + 319.176 = 336.653 over 97 frames.
+ForcedAlignment_272 SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_273, best cost 2146 + 45264.3 = 47410.3 over 15018 frames.
+ForcedAlignment_273 BOTFLY PELZER CASTILLO KULOW NEOPHYTE OSLO NORTH LONIGRO NEWFOUND TWILL THOUSAND OLAFSON FASTEST FORTHWITH NOGAWA UNIONFED CROTONVILLE ENTERLINE AWARDS HACKATHORN WHITMILL SILL EXCELLENTLY ATHA WATERWAYS DEFAULTED FOURTHQUARTER WHITLOW SILL BORGWARDT WINDMILL SILL ROSELINE XYLON IL RUDASILL WYSE AGHAZADEH THORNHILL ATHA HALFHILL CONAHAN VIA SADISTIC POLYURETHANE SOCIETY HILL VERVILLE SOKOLOV LAD AZOFF ZYCAD SILL SILL HOMILIES HUNTSVILLE OSTHOFF SKAFF HAWN BETHESDA SODOMY HEARTFELT VENCILL ODDBALL ICY KIGGINS AVERTING PRIMIANO HANKERING THEOLA EST AMITAI KEVILLE PATENAUDE ETHYLENE INGRIA CENITH ELENA IRE PENIKESE HALITE ENTITIES CHIAPPETTA ACIDIFY EVERYDAY SILL MELTWATER FLAVORFUL AMICONE VANDEHEI THIELMAN MAKRIS INCIDENCES UMPTEENTH VANDRIEL BLINDED TOMKINSON BANNING INSIDE ARNWINE SILL STARTING INCEST STENGLEIN FEITH INCREMENTS HEINZELMAN STENCILING DISINCENTIVE SILL HOOVER DIAMANT INCIDENCES CARTMILL REICHLIN SAXONS DUNES MOLASSES SILL HURT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_274, best cost 175.168 + 4652.17 = 4827.34 over 1484 frames.
+ForcedAlignment_274 SILL MEDCALF NORTHEASTWARD CYNWYD LEADVILLE VEIGEL ANTITAX HICKSVILLE VILIFY HILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_275, best cost 236.326 + 2831.58 = 3067.91 over 917 frames.
+ForcedAlignment_275 MOHAIR LITTLEBOY GYOHTEN SINDONA GABON DUBEY SILL YOCOM DULCIBELLE BORDAS KILOWATT BILOXI JAUNDICE DOSKOCIL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_276, best cost 147.369 + 1375.76 = 1523.13 over 456 frames.
+ForcedAlignment_276 GIESECKE ACQUISTION ALONSO TRICKIEST CIGNA BORTLE EPHEDRINE BUDDY SOPP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_277, best cost 258.033 + 2906.85 = 3164.88 over 1010 frames.
+ForcedAlignment_277 BASIC GAPE LOSO SIVILS GOLDSON KNUEPPEL ADENA OXIDANT DOSSETT DIFALCO ETZIONI BAISDEN LITTLEST ASIEL BENTONVILLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_278, best cost 51.0576 + 455.491 = 506.549 over 150 frames.
+ForcedAlignment_278 NOFZIGER LINDBLAD EDMUNDA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_279, best cost 67.0558 + 591.869 = 658.925 over 202 frames.
+ForcedAlignment_279 BLOODIEST MELODRAMA MADIA GNAW 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_280, best cost 104.003 + 1216.78 = 1320.78 over 410 frames.
+ForcedAlignment_280 DEDUCTIBLE DEPENDABLE SOBOL SIMPLER BURKHOLDER MEHL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_281, best cost 85.3277 + 890.99 = 976.317 over 316 frames.
+ForcedAlignment_281 ADAY STUMBAUGH LITHOTRIPTER RELIED CHILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_282, best cost 18.6972 + 293.917 = 312.614 over 95 frames.
+ForcedAlignment_282 GILPIN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_283, best cost 16.8483 + 97.3303 = 114.179 over 33 frames.
+ForcedAlignment_283 DITTO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_284, best cost 33.6402 + 308.652 = 342.292 over 109 frames.
+ForcedAlignment_284 GATE MADIA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_285, best cost 244.886 + 3065.89 = 3310.78 over 1055 frames.
+ForcedAlignment_285 MULLADY SILL DISGUSTS BENENATI AMOSS BLUMBERG AHMADI PAPADOPOULOS DOSSETT ASARCO SEPTA DIFFUSES BELINDA GUIDE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_286, best cost 34.8971 + 293.495 = 328.392 over 94 frames.
+ForcedAlignment_286 NUSBAUM ORIENTAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_287, best cost 133.483 + 1206.84 = 1340.33 over 411 frames.
+ForcedAlignment_287 MISHANDLE FUTHER CONVILLE DUNDEE BEVEN LIGHTED ANDESITE DAFNA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_288, best cost 88.6702 + 1555.71 = 1644.38 over 521 frames.
+ForcedAlignment_288 BAYUK LIEBELT SILL MCWHORTER DEPOSITED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_289, best cost 69.073 + 1766.3 = 1835.37 over 577 frames.
+ForcedAlignment_289 WOODBY DUTKA DOSSANTOS SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_290, best cost 154.582 + 2202.92 = 2357.5 over 716 frames.
+ForcedAlignment_290 ETHERS AUTOMATA INMONT WHETSTONE NOLET COUPLED ATILANO INVALIDS SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_291, best cost 113.649 + 1009.04 = 1122.69 over 339 frames.
+ForcedAlignment_291 SICKENED ANIMALS OANA PRETTY OUTBID UTMOST LABOVE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_292, best cost 224.987 + 2872.88 = 3097.87 over 957 frames.
+ForcedAlignment_292 NEIBERT GYMNAST LASORDA SEDUCTIVE THISSEN PLESCIA PRESENTABLE SUNDEWS PHIPPEN DAISIES DENIES SIGLIN DUBIEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_293, best cost 81.5018 + 698.576 = 780.078 over 233 frames.
+ForcedAlignment_293 EASES DOTSON SAMBA MONICA YUAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_294, best cost 18.5737 + 241.434 = 260.007 over 74 frames.
+ForcedAlignment_294 SIBYLL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_295, best cost 232.25 + 3273.43 = 3505.68 over 1055 frames.
+ForcedAlignment_295 SILL ELECTRON BARBAGALLO SISSY AUGUSTA TORIAN ETHERTON GODBEY DISCOMFORT LEONEL BUGLING DUBIE ORTA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_296, best cost 49.6794 + 611.479 = 661.158 over 193 frames.
+ForcedAlignment_296 SCINTO KEIZAI BEGET 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_297, best cost 17.5228 + 109.467 = 126.99 over 33 frames.
+ForcedAlignment_297 AUTODIE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_298, best cost 86.5123 + 897.212 = 983.724 over 307 frames.
+ForcedAlignment_298 TIDBITS MAZON UNMOLESTED OPPOSITE YAGODA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_299, best cost 263.159 + 3615.63 = 3878.79 over 1189 frames.
+ForcedAlignment_299 AMEDEE DUSK ACIDITY GILLASPY UPMARKET NAUGATUCK DOSSETT SILL ANOMALOUS MUHS FOOTS GOVETT MARCILLE SICARD PITIABLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_300, best cost 83.1576 + 877.664 = 960.822 over 297 frames.
+ForcedAlignment_300 SINTON FIFTH ARGENT AUDAS HILLESTAD 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_301, best cost 50.3411 + 462.899 = 513.241 over 155 frames.
+ForcedAlignment_301 NIECES DUNDAS MONOCLONAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_302, best cost 217.486 + 2790.68 = 3008.17 over 920 frames.
+ForcedAlignment_302 ERTLE LOCATED AMORPHOUS SILL BACHER SYMBOL BEMBENEK GODOT MUFFLERS GAZ DISTILLATES COPPERFIELD BAKA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_303, best cost 236.282 + 2800.22 = 3036.5 over 926 frames.
+ForcedAlignment_303 SYMBION SOPP ALDACO DEJA GODDART SILL DOMAGALSKI LOSEKE BELIED FORTES BUGLE BILTMORE BEACHEM SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_304, best cost 210.026 + 3329.94 = 3539.96 over 1033 frames.
+ForcedAlignment_304 MULLETT SILL BEFUDDLES BOCKUS CONTOS SIMBA APPOINTIVE BARKIN VEHEMENCE EXULTED QUIGGLE SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_305, best cost 103.439 + 1037.16 = 1140.6 over 333 frames.
+ForcedAlignment_305 MOLDABLE THURBER DUCTLESS MORIMOTO YANTIS WHITTLESEY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_306, best cost 50.9334 + 475.309 = 526.242 over 152 frames.
+ForcedAlignment_306 LUDEKE PREDECESSOR LAMONICA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_307, best cost 70.8056 + 783.008 = 853.814 over 257 frames.
+ForcedAlignment_307 SAVASTANO APPROXIMATES IBARRA DEDUCTIBLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_308, best cost 89.159 + 1128.39 = 1217.55 over 373 frames.
+ForcedAlignment_308 ANTONOPOULOS MOSCOM HINDUS SOCIA MODENA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_309, best cost 258.174 + 3059.94 = 3318.11 over 1033 frames.
+ForcedAlignment_309 EDIFICE EMBASSY ZISSON BAIDOAS SILL BURNABLE SUPPORTABLE EMBED CORDIAL ORCHARD DEMURS YEARGIN VEGETAL PORTABLE BARBARIC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_310, best cost 133.512 + 1394.73 = 1528.24 over 458 frames.
+ForcedAlignment_310 CABINDA DELGIORNO CODLIN SANTAGATA GUSTO FEATHERS BELINDA GLOTTAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_311, best cost 86.1696 + 1018.08 = 1104.25 over 367 frames.
+ForcedAlignment_311 FUDALA TSIANG GOGGLES BELINDA BAKERSFIELD 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_312, best cost 103.409 + 1189.48 = 1292.89 over 399 frames.
+ForcedAlignment_312 SYMBOL SINGLED LAGASSE BOLYARD SILL MAHL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_313, best cost 67.604 + 638.308 = 705.912 over 207 frames.
+ForcedAlignment_313 SEDUCER GISLER DISSIMILAR DUNLAVEY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_314, best cost 223.116 + 2735.41 = 2958.53 over 925 frames.
+ForcedAlignment_314 VITTLES ABAIR VEILLON EMBARGO FEUDALISTIC PITIABLE ENDRIZZI GORDA ROBERTA MAWKISH BIGHORNS AWARENESS HUGUENOT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_315, best cost 20.0793 + 212.836 = 232.915 over 67 frames.
+ForcedAlignment_315 SARDINAS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_316, best cost 35.6167 + 360.272 = 395.888 over 115 frames.
+ForcedAlignment_316 SUNDAI GEORGIANA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_317, best cost 136.368 + 1292.05 = 1428.42 over 411 frames.
+ForcedAlignment_317 MARDER JOSEPH IMPOTENT LOTUS IMPRIMIS AMANO MICHALIK OBLIGATED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_318, best cost 65.5476 + 581.711 = 647.258 over 190 frames.
+ForcedAlignment_318 ADAZA ORTEN DIESES GUBBELS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_319, best cost 178.403 + 2247.09 = 2425.49 over 772 frames.
+ForcedAlignment_319 BUCKLED BUBBLED ARANT LIBYAN AUGUSTUS BAILIN ANOMALIES HUSEBY EMBASSIES OBOYLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_320, best cost 17.6303 + 481.693 = 499.323 over 138 frames.
+ForcedAlignment_320 SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_321, best cost 76.5462 + 964.231 = 1040.78 over 325 frames.
+ForcedAlignment_321 STOSSEL BELINDA RUDASILL BAYOG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_322, best cost 218.621 + 3235.26 = 3453.89 over 1042 frames.
+ForcedAlignment_322 BELINDA ARGONNE UPPER LINDBLAD ORGILL INMONT BRAZIL METHYL LETUP MABILE SUBURB CRIBB OSCILLATORS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_323, best cost 19.4244 + 185.023 = 204.447 over 60 frames.
+ForcedAlignment_323 ANGEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_324, best cost 151.785 + 1437.51 = 1589.29 over 487 frames.
+ForcedAlignment_324 IT MCDOUGALS INDUCTOR YELDELL MONOCLINIC PUPIL DUBUISSON AHMADI SEELMAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_325, best cost 198.145 + 1875.32 = 2073.46 over 636 frames.
+ForcedAlignment_325 OWNED ASSASSIN URTON IDALIA BABETTE OUTMODED BUSKEY ABOARD GRENOBLE BULBOUS YERKEY MCFADYEN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_326, best cost 87.9734 + 1136.73 = 1224.7 over 364 frames.
+ForcedAlignment_326 LICHTENBERG JOSTLED REHEARSAL POTOMAC OZONE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_327, best cost 83.7496 + 996.098 = 1079.85 over 304 frames.
+ForcedAlignment_327 IGNOBLE SILL LOBBIA GOLBA GOVE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_328, best cost 172.496 + 1667.08 = 1839.58 over 568 frames.
+ForcedAlignment_328 HEAPE GOADED ALMOST NECESSITY ABANDON RESTYLED KOSKINEN BIZ BEDBUGS BORROR 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_329, best cost 280.334 + 4150.78 = 4431.12 over 1291 frames.
+ForcedAlignment_329 BUBBLES GUMBI OPERABLE PSYCHEDELIC SICKEST LATVIA BONICA CAPLES ECKELBERRY THEE SYMBOLICALLY QIAN ESTOK BORDER CIGAR SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_330, best cost 54.009 + 782.736 = 836.745 over 251 frames.
+ForcedAlignment_330 GUSTAVO SILL DAYAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_331, best cost 99.4586 + 974.763 = 1074.22 over 341 frames.
+ForcedAlignment_331 PORTAL BAYARD CITYFED POMPADUR BESET SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_332, best cost 2172.92 + 46699.9 = 48872.8 over 16549 frames.
+ForcedAlignment_332 ANGUS AMERICAS LOWNDES NASTINESS HAMMONDS CONTINUED LINVILLE REVIVE CISSNA HEMENWAY ASIMOV CENVILL HUFFINES HAWKINS UNLOCK POR OSHEA OTTO MAUNA SILL ARAPAHO BAKRIE ISAIAH VAGABONDS BILLIARD ZINC SCRATCH ICARD WENIG VITAMINS SANDINISTAS PETH SIMONETTA YASS HALFHILL GARA IMPASSE HIRTH HALFHILL AHONEN HANAWALT BARNHILL HIGHSPEED INTERNET MEDIN KIEWIT NINETY NINTH WINDHEIM PRISONER LIABILITY EDIN EVERYDAY BREITSCHWERDT NORDSTROM FEES SITCOM IRRITANT SANVILLE KANSAN COZART SCRATCHES TAUNTON FULLERTON VATH HUT FOTH ANAYLSTS AUFHAUSER KATHAN SILL ATHENA VESSER VANG LOGISTICS BORNHOLDT COASTLINE AYATOLLAHS SOVRANS INHALING PEOPLES COMPAGNIE UNSUITED PENCILED DELAND OUTWARDS WHEELUS OVERDRIVE VIVA WINONA RAPPORT WINTZER WHITMILL PORTLY CINDY RAPPORT VERGES DISUNITY DEMOV ENVIOUSLY ULRICA ARNAUD GOSMAN VISTAS NESTEA MEDUSAS DUENA LINVILLE WENTZVILLE SILL FIDO HASSELMAN HAUNTS PENFIL FILINGS HALFHILL LEHNHOFF SILL LOTHIAN TEELING VAUDEVILLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_333, best cost 21.2327 + 1217.53 = 1238.76 over 457 frames.
+ForcedAlignment_333 HALFHILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_334, best cost 184.51 + 2346.9 = 2531.41 over 732 frames.
+ForcedAlignment_334 INBODY GETHERS MCGONAGLE CENTIPEDE MONOPOLIST LIVABLE KOEPPEL PADUCAH SILL DOTTING BEGNAUD 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_335, best cost 51.6173 + 541.021 = 592.639 over 164 frames.
+ForcedAlignment_335 IGNOBLE YEPEZ RUDASILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_336, best cost 105.814 + 1463.31 = 1569.13 over 449 frames.
+ForcedAlignment_336 SIPPEL ESTOK BIONDOLILLO SILL ASSESSOR TIDBALL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_337, best cost 155.602 + 1580.9 = 1736.5 over 522 frames.
+ForcedAlignment_337 BUNDA ROSSELL UTKE DOUBLED LIBERMAN GIMPEL GODBOUT WAMPUM CIPOLLONE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_338, best cost 171.604 + 2114.59 = 2286.19 over 669 frames.
+ForcedAlignment_338 SIMBA IMO DIABASE BOBADILLA SILL YERENA JURE EITEL POBLA POTHOLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_339, best cost 17.0992 + 88.7189 = 105.818 over 30 frames.
+ForcedAlignment_339 E 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_340, best cost 35.1353 + 351.984 = 387.12 over 107 frames.
+ForcedAlignment_340 NAVIGABLE REPRINTED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_341, best cost 276.402 + 3375.1 = 3651.5 over 1152 frames.
+ForcedAlignment_341 AIDED OBIT BUGLE SILL BEJAR KOBLER INEZ GUIDE YOUGHAL FLUET ELICIT FAYETTEVILLE UNSAFE PAYABLE LOLL MORDECHAI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_342, best cost 120.185 + 1505.52 = 1625.71 over 477 frames.
+ForcedAlignment_342 MONOMER MODENA MONROEVILLE SERUM WIGINTON ORGILL JUBA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_343, best cost 17.2384 + 162.763 = 180.001 over 50 frames.
+ForcedAlignment_343 SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_344, best cost 31.7276 + 191.349 = 223.077 over 65 frames.
+ForcedAlignment_344 AUBLE SUBURB 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_345, best cost 328.174 + 3784.22 = 4112.39 over 1239 frames.
+ForcedAlignment_345 ALAR MULTI CELADON ORTIS ABOUT WAMBOLD SILT PURTLE OFTEL ICENOGLE BRAZIL LODATO BEESON REDOGLIA DEDHAM OVERCAPACITY THUNDERBIRD BUBBLED ROBBERS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_346, best cost 50.2782 + 410.827 = 461.105 over 135 frames.
+ForcedAlignment_346 BIESECKER JACINDA BICHLER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_347, best cost 16.0249 + 35.8781 = 51.903 over 20 frames.
+ForcedAlignment_347 AYR 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_348, best cost 87.8608 + 898.501 = 986.362 over 316 frames.
+ForcedAlignment_348 ESPINAL SERAFIN DALONZO BIMBOS AGERATUM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_349, best cost 21.3894 + 237.406 = 258.795 over 90 frames.
+ForcedAlignment_349 ANCTIL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_350, best cost 56.9949 + 656.957 = 713.952 over 242 frames.
+ForcedAlignment_350 ELEMENTS UNBOLTED SYMPATHIZERS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_351, best cost 88.1996 + 891.208 = 979.407 over 288 frames.
+ForcedAlignment_351 ESTIMABLE YOUNAN GOBBLED ORATORICAL BASSOON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_352, best cost 256.312 + 2696.65 = 2952.97 over 898 frames.
+ForcedAlignment_352 EVILSIZER REPOSE MAZDA ALMOST DIDONATO UM ENCUMBERED AUBLE BITTEL HYSTERICAL GUMBEL MIME SEATTLE GUILDHALL KESLAR 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_353, best cost 68.0004 + 641.916 = 709.917 over 204 frames.
+ForcedAlignment_353 OBLAK AUDUBON UNDERBID UPROAR 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_354, best cost 86.6026 + 1075.85 = 1162.45 over 333 frames.
+ForcedAlignment_354 HALLGARTEN RAPOCA TIDBIT SILL TEEPLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_355, best cost 52.4517 + 552.98 = 605.432 over 221 frames.
+ForcedAlignment_355 SOUS ADOBE BOWLUS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_356, best cost 97.5914 + 813.045 = 910.636 over 271 frames.
+ForcedAlignment_356 EDIBLES JUNDA CATCHER DEPLOYABLE YEARBOOK BOMBAY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_357, best cost 86.5921 + 886.476 = 973.068 over 297 frames.
+ForcedAlignment_357 WOBBLED DINNERS BUTTAFUOCO BORDAS GUATEMALAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_358, best cost 66.5946 + 618.291 = 684.885 over 208 frames.
+ForcedAlignment_358 NONDEFENSE UPTICK YASSIR OSORIO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_359, best cost 86.6373 + 856.992 = 943.629 over 281 frames.
+ForcedAlignment_359 GIGANTIC FEUDAL BOITANO LIPPINCOTT ALFREDSON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_360, best cost 52.4853 + 554.6 = 607.086 over 191 frames.
+ForcedAlignment_360 EYECARE IMPRISONMENT LAGROCERIA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_361, best cost 68.4437 + 662.93 = 731.373 over 231 frames.
+ForcedAlignment_361 VEREB JEZEK DEDHAM ABBASI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_362, best cost 270.778 + 2337.51 = 2608.29 over 814 frames.
+ForcedAlignment_362 WARDELL MATLICK LOTHROP SODITIC GABLE SOBERS YOM ISBILL CORDED DOMICAL THEON BIDGOOD AWALT ROTHBARD BOLSTAD THEODOROU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_363, best cost 21.8253 + 333.527 = 355.352 over 122 frames.
+ForcedAlignment_363 DAPPER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_364, best cost 251.795 + 2749.4 = 3001.19 over 969 frames.
+ForcedAlignment_364 OBANNON BODELL SIMISON CETEC YASUDA BUDVAR TEEPLE TOURNAMENT ALLPORT RESTOCK KNAUP UNENVIABLE DEPRESSIVE GUMBI YOLA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_365, best cost 152.294 + 1481.31 = 1633.61 over 522 frames.
+ForcedAlignment_365 BUCKBEE GAVITT ASSAYER HOLDA BOATERS SULTANATE CORDOBAS BOXWOOD BUIS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_366, best cost 101.594 + 1040.14 = 1141.74 over 351 frames.
+ForcedAlignment_366 HIPPIES LOCATED LENGLE AUTOMOTIVE MCABEE JOYAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_367, best cost 32.5179 + 219.414 = 251.932 over 102 frames.
+ForcedAlignment_367 ODNEAL CAYA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_368, best cost 692.396 + 7435.1 = 8127.5 over 2610 frames.
+ForcedAlignment_368 GUSTAFSON REPUTED MEDUSA GISSI PROBABLE NICKOLAS GOEDERT GODINA BORTNICK UNABLE TUPELOV VAGRANCY ETHICAL BOONDOGGLE COLORLESS YORKERS DUESLER SEPTA WOGOMAN DIPPEL MAULED FUTILE SUBGROUP KISTLER MATSUO CORDONED GABALDON SOCIA MOYA BOITNOTT HILMA NONPUBLIC ETZIONI TEO BURRISS AUSIMONT ALMARAZ LITTLETON EMOTIONAL BEUTLER HALCYONE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_369, best cost 49.5663 + 385.171 = 434.737 over 138 frames.
+ForcedAlignment_369 MONITOR GENDRON ABODE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_370, best cost 79.9334 + 817.66 = 897.594 over 256 frames.
+ForcedAlignment_370 SILL KOSTAS CRISTOBAL CECI INDAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_371, best cost 49.8128 + 379.627 = 429.439 over 137 frames.
+ForcedAlignment_371 ESPADA SOLDER MAZZIOTTI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_372, best cost 121.327 + 1548.38 = 1669.71 over 552 frames.
+ForcedAlignment_372 MOLDABLE PERIOD VIDIGO ANATOMIST IRREFUTABLE IMMOBILE TEQUILA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_373, best cost 385.729 + 3545.08 = 3930.81 over 1177 frames.
+ForcedAlignment_373 MCDONNELL CITI UNBUILDABLE MONSOONS ABOVEBOARD GATE THEE REPORTABLE SUTHARD BONNEMA KORTUM PUPIL CINNAMON DALBEY UNPROFITABLE BOASTED BUA NETTLESOME BONNELL POINOT PICKLES CONCEIVABLE GUNDLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_374, best cost 86.8074 + 848.879 = 935.686 over 270 frames.
+ForcedAlignment_374 SICKNESS MEVACOR APOLITICAL SUNDEWS HIPPLER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_375, best cost 256.794 + 2310.81 = 2567.6 over 790 frames.
+ForcedAlignment_375 AWFUL COOPER MODESITT ELECTRON DEANDA BEUMER GLOSTER WIED UGANDAN MCCORD ASKOLDOV DORDIES OSRED GUMBI OATH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_376, best cost 66.4975 + 653.929 = 720.427 over 227 frames.
+ForcedAlignment_376 MAACO DOTTERER VALBORGA TEEPLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_377, best cost 96.9112 + 724.713 = 821.624 over 249 frames.
+ForcedAlignment_377 BEYL INNOMINATE AUDUBON MEDIEVAL MUSKET UNDATED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_378, best cost 25.2886 + 461.975 = 487.264 over 177 frames.
+ForcedAlignment_378 VADEHRA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_379, best cost 460.515 + 4888.37 = 5348.89 over 1626 frames.
+ForcedAlignment_379 UNISYS DIBRELL SISSEL EATABLE ROLLOUT LOCUS DOUBLES HACIENDA POMPADUR RECORDERS BOONDOGGLES SI AFFABLE SILL VENDETTA MORTAL DOUBLES VEBA ALMOST LEBARON FOREBODING QIAN SEQUINED DOBIAS BONICA VAGINAL SUBURBANITE LAMOTT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_380, best cost 400.329 + 4867.58 = 5267.91 over 1668 frames.
+ForcedAlignment_380 ORDWAY PITIABLE PASOK MIDCOURSE PLAY KILTON IMPROMPTU SOHL GAELIC PUPIL BUCKWALTER HORRIBLE BINFORD INTESTINAL VIV VISIBLE SILL BUSES FUNDAMENTALISTS VAILLANCOURT BOAR BOSSERT SIEBEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_381, best cost 21.3518 + 279.916 = 301.268 over 101 frames.
+ForcedAlignment_381 ETHOLOGY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_382, best cost 9.90004 + 69.6279 = 79.5279 over 30 frames.
+ForcedAlignment_382 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_383, best cost 95.9121 + 834.294 = 930.206 over 287 frames.
+ForcedAlignment_383 MCCORT UMBEL CORKY BORTLE DAKOTAS EE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_384, best cost 69.5018 + 854.983 = 924.485 over 295 frames.
+ForcedAlignment_384 BUBBLES AHLBORN CHAOTIC PEOPLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_385, best cost 240.924 + 2973.1 = 3214.02 over 1026 frames.
+ForcedAlignment_385 MOMBASA VUNCANNON ABABA PAYAN SILL DAVOS GOBBLERS THORTON GLYNDEBOURNE VELDA MONICA BEAVERTON DITH SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_386, best cost 273.868 + 3502.33 = 3776.2 over 1148 frames.
+ForcedAlignment_386 IDLEMAN WARFEL PROCOPIO TENNESSEAN DOSKOCIL BUBBLE SILL GOBLET DEPORTED COLORFUL PULSING BILLIONAIRES THEE LOCUS DIPLOMATS SEDUCTIVE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_387, best cost 21.1508 + 175.512 = 196.663 over 95 frames.
+ForcedAlignment_387 VENN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_388, best cost 145.461 + 1251.61 = 1397.07 over 424 frames.
+ForcedAlignment_388 KLOSE CAPTIONING BROADVIEW BYE SISLER STIG SEAFOODS SALADS SISLER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_389, best cost 432.716 + 12268.2 = 12700.9 over 4425 frames.
+ForcedAlignment_389 RAVENS MEDVEDEV LIVELIHOOD MOVERS DENWA INSIST ONSLOW WAYNESVILLE LEWINTON RULAND REELED LANDRY VILLE VANDEHEI VEDETTE HAFTA HENAO ASHEVILLE PASSEL VATH HUFFING 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_390, best cost 1063.5 + 34366.4 = 35429.9 over 11946 frames.
+ForcedAlignment_390 SILL HIAWATHA VAVREK HIGHFILL BROYHILL OPHTHALMOLOGY HILLE RAHILL BACKHAND HADA HILL KAUFHOF HILLIN ODONOGHUE ALIOTO SUCKOW HORNADAY DEALER HATHORNE LIL ORLAND WOONG AGREEMENT GAUNTT PANNILL SILL SILL OUSTING ZILL HARVILL TIGHTNESS HEADING UNCLASSIFIED ANWYLL VATH VACHA FLATH SOUTHLIFE SOMERSET FILING ETHICIST LOATHING ALLISTON LATH SEVILLE ATHANASSIOU VICES LILLE VORHAUER VANASSE SOUTHWEST DETHLOFF ETHYOL FATS TRANSPARENCY EAU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_391, best cost 248.998 + 3211.26 = 3460.26 over 1067 frames.
+ForcedAlignment_391 WALPOLE MICKELSEN ESTEL BULLDOZERS THORDIA BENENATI ADULTEROUS DOUBLES AMIGOS ARCHEOLOGICAL RECOGNIZES ENTITLES ISA IMMEMORIAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_392, best cost 259.11 + 3319.73 = 3578.84 over 1118 frames.
+ForcedAlignment_392 ALPO DEITIES BIOSYS INDIGNITIES DITTO NOBLIN SILVAS SEDAN ESTAI AYARS BUBONIC BABERS SOPP OSSO CISAR 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_393, best cost 84.0591 + 766.161 = 850.22 over 272 frames.
+ForcedAlignment_393 ACED DIPPLE SOCHOR HEAPING PONG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_394, best cost 137.938 + 1346.02 = 1483.96 over 426 frames.
+ForcedAlignment_394 ADDIS ABORTED BORGELT SELECT ABRUZZO IGNOBLE POLEVANOV DIMATTEO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_395, best cost 120.612 + 1622.43 = 1743.05 over 532 frames.
+ForcedAlignment_395 BETKER MAZZIOTTI CORDOBAS SEAHOLM IZZO ESSO SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_396, best cost 137.818 + 1427.4 = 1565.22 over 461 frames.
+ForcedAlignment_396 DEPASS EQUABLE MCHUGH NOSEK QUARTILE DULL SILVADIO ALBERTA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_397, best cost 23.0435 + 487.57 = 510.614 over 171 frames.
+ForcedAlignment_397 BOONVILLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_398, best cost 277.683 + 3520.62 = 3798.3 over 1136 frames.
+ForcedAlignment_398 MOET MCDOUGALD CASIAS BIZMART SHOD MOKOENA PORTABLES GOTHIC GUPTILL MARKETED SILL RICHTON BUREAU DICICCO COPYRIGHTABLE BURGOS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_399, best cost 158.457 + 2128.3 = 2286.75 over 804 frames.
+ForcedAlignment_399 ETHENE MARKEN ACIDIC BALEFUL MOTHBALL ANNALS GLOATED ROBUST DEMOSS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_400, best cost 137.929 + 1335.9 = 1473.83 over 431 frames.
+ForcedAlignment_400 BIPPUS CYMBALS ESSENBURG BALTICA TOMASIC MARKUNAS APPLAUDED ADORE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_023, best cost 18.0462 + 505.813 = 523.859 over 152 frames.
+ForcedAlignment_023 SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_024, best cost 393.566 + 4093.53 = 4487.1 over 1295 frames.
+ForcedAlignment_024 ALBION OFFICE ISOTOPE REDDOCH IDONA SAVASTANO ALLPORT FORCIBLE DIEBEL ELLERBEE DOCKYARD LUSIGNAN AUDITORS PLACEBOS SCHOENBAUM DECREASING BOONDOGGLE FRANCAISE SCICOM APOCALYPTIC SIBBY ASSISTANCE IA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_025, best cost 82.896 + 832.173 = 915.069 over 258 frames.
+ForcedAlignment_025 HOLDA PRZYBYL BOMMER CYLINDERS YANDLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_026, best cost 3.40242 + 27.3824 = 30.7849 over 9 frames.
+ForcedAlignment_026 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_027, best cost 738.414 + 10274 = 11012.4 over 3179 frames.
+ForcedAlignment_027 DELCAMP ABYSS DOUBLE SILL MOPBOARD SITZER REBECCA DARDIS THORELL SOLD CITYFED INDEPENDENCE YEP RECORDED ABEYTA SILL KEGEL SILL SILL SOJOURN DEBOSE DEDUCTIBLES ILLEGALS BUDGETED DEFAZIO SILL BODIES BASEBOARD OATHOUT DOCKET POSSIBLE ZENOBIA SYMBION GIRIJA VIDEO GUTTENBERG PHYSICAL EWOLDT NASAL SEXSON SIEVE BAATZ SIDS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_028, best cost 39.9493 + 680.649 = 720.598 over 211 frames.
+ForcedAlignment_028 SYMPATHIES DEZERN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_029, best cost 167.407 + 1740.36 = 1907.77 over 551 frames.
+ForcedAlignment_029 IT ODEN SINDONA PORRITT EPHRAIM NORTHWOOD UPMARKET LIBERTIES DEPRENYL TECHNICAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_030, best cost 245.914 + 3341.34 = 3587.25 over 1022 frames.
+ForcedAlignment_030 TEBEAU CAPALDO MYOJIN OLBRICH LITTLETON BECAUSE PAJAMAS ABABA GAMBIT EMBARCADERO APPOINTED SILL INADEQUATE IGEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_031, best cost 305.942 + 3253.96 = 3559.9 over 1015 frames.
+ForcedAlignment_031 CIVICS ELICITED GEBLER ABIDE PRINCIPALS DOBRIN DIFFICULT BONDHOLDER PORTMAN ABATE BATTLEFRONT SIBBY ZIRKELBACH MALARA DIVISIONAL BASILE DRESEN SINTON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_032, best cost 315.176 + 3609.58 = 3924.76 over 1177 frames.
+ForcedAlignment_032 LHASA MAXION ALLCORN BOLLENBACH GIMPEL GOODRUM SILL BARNACLE COMBINABLE ELIZONDO FUMBLES GURR CAUCASUS DOGBERRY MERICLE PINDELL BAYOG TEVATRON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_033, best cost 102.007 + 1812.8 = 1914.8 over 565 frames.
+ForcedAlignment_033 TRON ISTANBUL MODEM BALTODANO ZYLKA SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_034, best cost 70.6457 + 844.523 = 915.168 over 278 frames.
+ForcedAlignment_034 EE STICKLAND ODONNELL SARDINAS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_035, best cost 49.4302 + 385.382 = 434.812 over 138 frames.
+ForcedAlignment_035 AILEY GUNBY DUCTILE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_036, best cost 52.0693 + 571.011 = 623.08 over 193 frames.
+ForcedAlignment_036 SIDDONS YADON AUDIBLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_037, best cost 9.29727 + 43.4351 = 52.7324 over 23 frames.
+ForcedAlignment_037 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_038, best cost 265.953 + 2848.61 = 3114.57 over 913 frames.
+ForcedAlignment_038 MARKETED OBERMILLER GABA BILLANCOURT AFFORDABLE CHIPPING DOUBLETHINK FIGGIE LUFKIN ODOMETER ARCTIC ABLAZE NAUTICAL BERGAMO THALASSA MCGONIGLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_039, best cost 241.568 + 2827.16 = 3068.73 over 937 frames.
+ForcedAlignment_039 ETHERNET AUTOMATON LUFKIN DAYAN DOUBLETHINK NONAUTOMOTIVE CYMBAL BIGGEST CORPORATES ORNA UNINFORMED BOWLERS BURCIAGA GAMBARDELLA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_040, best cost 18.5987 + 162.362 = 180.961 over 55 frames.
+ForcedAlignment_040 SEDUCER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_041, best cost 335.721 + 4317.88 = 4653.61 over 1351 frames.
+ForcedAlignment_041 YAPLE ABIO SILL SILL PORTLOCK DEEPENS OCCIPITAL INEZ CANDIDACIES DOPP MISINTERPRETED FLIT BOBBO DIETEL INTEGRATE LOUK SILVAS PICKLESIMER KNOBLOCK 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_042, best cost 19.0876 + 186.705 = 205.792 over 62 frames.
+ForcedAlignment_042 OBERMAIER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_043, best cost 48.3236 + 354.622 = 402.946 over 125 frames.
+ForcedAlignment_043 GAYTAN INDIC KOL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_401, best cost 84.0328 + 990.233 = 1074.27 over 302 frames.
+ForcedAlignment_401 ALMOST ARBUCKLE SAPPORO SILL PHOTOCOPIES 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_402, best cost 338.603 + 3467.48 = 3806.09 over 1121 frames.
+ForcedAlignment_402 MATSUBARA GADHAFI APPLESAUCE EXPO STROEBEL UNBUILDABLE UNEDITED FRONTIERS MUFFLED ALITHIA SYMBOLS ASSEMBLER GUBBELS EPITOME DEMOPOULOS ORNA SADLY BIPPUS KOKOMO HECUBA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_403, best cost 238.807 + 2902.36 = 3141.16 over 939 frames.
+ForcedAlignment_403 SILL BARNYARD SPEIRS DOUTHIT DEFECTOR GUNDLE CLAMPITT NEIDL GNAIZDA ONDERDONK SIMISON SISSY DOSWELL SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_404, best cost 293.352 + 3054.12 = 3347.47 over 993 frames.
+ForcedAlignment_404 TOOTHPICK HISLOP GAMA ISLAMABAD ETHENE BRIT BONNELL PALAZZO FOGLER MATTHIA PETERBILT SILL MCDOW MOLDABLE THIMBLE BORDAS IS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_405, best cost 102.338 + 1010.09 = 1112.43 over 325 frames.
+ForcedAlignment_405 MELENDEZ GUPTILL GANDOLFI BOCHENEK UNESCO UNDONE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_406, best cost 80.8712 + 587.631 = 668.503 over 198 frames.
+ForcedAlignment_406 WADAS ESSIG MARKUNAS EAGERLY LUEDERS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_407, best cost 91.5764 + 1670.69 = 1762.26 over 575 frames.
+ForcedAlignment_407 ALBION GUSTAVA SAAMSTAAN SILL PIETTE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_408, best cost 68.6206 + 668.016 = 736.637 over 216 frames.
+ForcedAlignment_408 CLEMATIS DEVOID BILLON IMPASTATO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_409, best cost 163.922 + 1395.22 = 1559.14 over 498 frames.
+ForcedAlignment_409 GNAIZDA KAYS NICKLEBY UNSOLD INDABA COVATTA MOUTHFUL BOESKY GIPPLE MEY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_410, best cost 159.219 + 1855.43 = 2014.65 over 605 frames.
+ForcedAlignment_410 SAUNDRA DIPPY LOOKABILL MOLDED FUNGIBLE PHOTON BOITNOTT MALDIVES HOMECARE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_411, best cost 227.976 + 2901.45 = 3129.43 over 1001 frames.
+ForcedAlignment_411 SIMPLEST OCELOT FOCAL ADMINISTERED MONOSZON BUIS EATMON VOELKEL BARTLESON FESTUS YORKERS UTOPIAN BRISBOIS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_412, best cost 103.349 + 1306.6 = 1409.95 over 440 frames.
+ForcedAlignment_412 ORAVETZ UNSETTLE LAPOINT UNAFFORDABLE ESPLANADE GLOTTAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_413, best cost 351.008 + 4009.36 = 4360.37 over 1354 frames.
+ForcedAlignment_413 OHARRA DEIBERT POEM PASEO SOBERS SUDBECK NOKIA PISTOLS TELEFONICA MUETZEL DOUBLES BUTYL ODLAND WOBBLED CAPETOWN LIPPARD NEGATE INDATA POTLUCK DAMATO KIMBRELL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_414, best cost 139.377 + 1573.16 = 1712.53 over 585 frames.
+ForcedAlignment_414 PESOS DEMOTT OZ ISREAL BOITNOTT CICADAS ONEIDA GUPPIES 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_415, best cost 182.774 + 1867.05 = 2049.82 over 605 frames.
+ForcedAlignment_415 WEATHERS BOFFA ORNA PATRICIO GATTUSO GLOBAL EPIPHANY DEPLORABLE DULCIBELLE BIERMA PORTAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_416, best cost 663.344 + 7442.97 = 8106.31 over 2430 frames.
+ForcedAlignment_416 YQUEM DARTMOUTH BONDHOLDERS BUDDIES ABACUS IMPOSES IMPECCABLE WOODIS OBERMEIER VESTAL INDY PACYNA BRAID ULRICH AUDIT BLANKETED RASTETTER ABUSERS DEPORTED AMIGA FLIPPO DISSOLVERS LAFONTANT SILL EMMYS ALPHONSO ORTA DEDUCTIBLE VIETCONG INITIO DEPENDENCY AVAILABLE CYPERT APRONS MOCA ZUBROD HOLDUP ACCOUNTED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_417, best cost 269.359 + 2738.7 = 3008.05 over 908 frames.
+ForcedAlignment_417 LODLEY STOCKMAN PIETILA DIPPLE KOMINE SIDERCA TINDAL MASI LUSKIN BIZUB ARCHIVAL WAUSAU DOMESTICALLY ILLIQUID PORTABILITY VINTAGE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_418, best cost 120.018 + 1954.81 = 2074.83 over 616 frames.
+ForcedAlignment_418 OANA SILL GLOWS ARMANI DIABASIC EDITHA PLACENTIA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_419, best cost 105.364 + 1064.03 = 1169.39 over 362 frames.
+ForcedAlignment_419 ADELBERT SAUNA ETHELDA DEDUCT LOBBIA OSTENSON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_420, best cost 1078.78 + 16287.2 = 17366 over 5901 frames.
+ForcedAlignment_420 HLAD WRYE WAVERING BOYZ LINDAMOOD VAUDEVILLE NORNA MARBIL CICERONE FORLENZA UNWANTED RHO SILL VARONE KNILL FANECH AORTA CRITTENDEN ALIVE FORK OSTERHAUS EMISSARIES HOEFLE SIMAS ADJUSTABLE LUSCOMBE TEMKIN FOERTSCH ARCTIC LIMONITE THEODORE KORSON SIERRACIN DURIO DEATH BESTWICK PEPIN JONASSAINT EUROPHILE MINISTER PROPERLY HINDQUARTERS DIVORCED WAR THUMA RIBAVIRIN COLICCHIO MAHLMAN ARTISTS ADORE MODELS FREEZERS EVACUATE COMPLEMENT HARJU KEMPA DISSIPATED RECALL LUANDA OUTDO CRATERS SAFER HOME 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_421, best cost 1184.57 + 25682.6 = 26867.2 over 9063 frames.
+ForcedAlignment_421 SIAMESE KEYHOLE WEEKLIES BEZOLD ZEBULON UNDERWRITTEN CHRISTIAAN KANITZ RUBBLE GENEVE IDEAS OUTLAWS WOODLEY NIENABER DIVIDE MILLIMETERS EMLYN HOMESLEY VERINA PENALIZED HAWTHORNE ZALEY SILL STIVER SILL MEDCALF NORTHEASTWARD CYNWYD LEADVILLE VEIGEL ANTITAX HICKSVILLE VILIFY HILL SILL DEVILISH RESELLER BRILL RESEARCHERS LAFLECHE DESOUZA VUKELICH CARLSTROM CATALYTIC DEBIASE HILLY KELLETT HARLIN SILL KOFFLER SILL TOMASSETTI VAUDEVILLE STODGHILL LIGHTHOUSE LACQUER MANNING WEIHE INNINGS NORVILLE UNWITTING ENGINED VILLE VERHOEVEN HAVE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_044, best cost 49.5018 + 412.017 = 461.519 over 146 frames.
+ForcedAlignment_044 GABLES DIDONATO UNSEAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_045, best cost 317.697 + 3366.75 = 3684.45 over 1205 frames.
+ForcedAlignment_045 BRITTLE MOLDAVIAN UPWOOD AMENDOLA BRITTLE PRINCES ABUT MOLDED BULLIED TRAUM BUECHELE AMITY BATHGATE SAUDIA BILTON BOLDA DOBLE DULCIBELLE SUPPORTIVE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_046, best cost 67.5675 + 695.769 = 763.336 over 215 frames.
+ForcedAlignment_046 GEOGRAPHER ULLOCK NONDEDUCTIBLE BROYHILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_047, best cost 152.869 + 1541.7 = 1694.57 over 551 frames.
+ForcedAlignment_047 BASSETTE EQUABLE AGUINAGA NUNES SIMEON BILLABLE YALE IZZO MASTEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_048, best cost 311.237 + 3857.79 = 4169.02 over 1238 frames.
+ForcedAlignment_048 SUNOCO DRUM ALBEN DOUBLED HOOLE NEUKAM SILL LISP WESTGATE DARKEST AUBLE DUPRAS BAYONET MOTTLED WOMBLES COMBINABLE COATESVILLE SYMPTOM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_049, best cost 49.6021 + 389.261 = 438.863 over 123 frames.
+ForcedAlignment_049 ADMITTED BALLISTIC WEBERS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_050, best cost 163.943 + 1733.87 = 1897.82 over 550 frames.
+ForcedAlignment_050 WARRICK BISMARCK SIEBEL GILDNER CONVILLE MANDELBAUM BLIGHTED PERDITA BOTTLED CUNDILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_051, best cost 135.369 + 1614.51 = 1749.88 over 488 frames.
+ForcedAlignment_051 GIMMICKY DEADLOCK VINDICTIVE SOLVABLE DOCKED YUTAKA BARTRAM SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_052, best cost 151.872 + 1533.23 = 1685.1 over 506 frames.
+ForcedAlignment_052 WALDA EXPEDITE MOTHBALLS IMPORTANCE YOLANDA UNFILLED EXHIBITED INDEBTED DRUMM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_053, best cost 218.187 + 2285.54 = 2503.72 over 788 frames.
+ForcedAlignment_053 HONORIFIC GATE TROMP DEEPENS ETHELYN CONVILLE DIBBLED MINGLE BAYONET ROBUSTAS BANANAS WINDMILLER GERHART 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_054, best cost 135.311 + 2277.18 = 2412.49 over 687 frames.
+ForcedAlignment_054 SILL SILL DISTASTE EDIBLES COLLECTIBLE BERKEBILE YBARBO STOGDILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_055, best cost 130.534 + 1493.97 = 1624.5 over 464 frames.
+ForcedAlignment_055 SILL ABUTTED OVERBOARD LEFTISM BIBBO SIDDELEY BILLBOARD ANJA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_056, best cost 202.896 + 2499.02 = 2701.92 over 766 frames.
+ForcedAlignment_056 BOTHERED SILL MARKWOOD SILL GOLDBERGER GIZBERT SIGGERS GRUPPO PORTLAND DATO STAGE SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_057, best cost 33.2802 + 253.453 = 286.734 over 82 frames.
+ForcedAlignment_057 GIZBERT BIZZELL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_058, best cost 92.027 + 1054.73 = 1146.76 over 351 frames.
+ForcedAlignment_058 TASTELESS PREDICTABLE BUTTRUM FORDHAM MONARCHS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_059, best cost 332.254 + 5112.31 = 5444.56 over 1589 frames.
+ForcedAlignment_059 EAKIN GOEDEN QUITS DEMICHELE BONDAR SHORTCUT GODBOLD GINZBERG BUECHEL PRINCIPLED SILL KINNELL PITY APPRAISAL SILL SICHEL APLOMB JOCOSA SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_060, best cost 19.9074 + 323.68 = 343.588 over 134 frames.
+ForcedAlignment_060 HILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_061, best cost 264.439 + 3346.53 = 3610.97 over 1125 frames.
+ForcedAlignment_061 FINNAN ESTIS EXHIBITED INDICATIVE SINTON BASELESS PROGRESSED UNCOMFORTABLE LIBERTINE GANTENBEIN ABRUZZO GUMBINER CROTONVILLE INNOCENCE DAWDLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_062, best cost 98.8127 + 1051.25 = 1150.06 over 348 frames.
+ForcedAlignment_062 FEIGN NEMES INAUDIBLE BUBBLED OTTUM BANESTO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_063, best cost 98.8961 + 823.505 = 922.401 over 260 frames.
+ForcedAlignment_063 ETHEL DOGBERRY LOATH BUBBLED GOLDBLUM FORESTALL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_064, best cost 172.918 + 1796.38 = 1969.3 over 577 frames.
+ForcedAlignment_064 ALTHOUSE INDULGENT OSTINATO ABABA MASSACHUSSETTS SYBERT WARREN DIFFICULT SHARBONO HEIDEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_065, best cost 49.0467 + 405.516 = 454.563 over 154 frames.
+ForcedAlignment_065 REEVE BUBBLE SUBURB 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_066, best cost 448.38 + 4713.29 = 5161.67 over 1504 frames.
+ForcedAlignment_066 SECURES SILL SELBY DOUBLEDAY YUST OSTINATO OLDHAM ABDICATE VERMA MELANSON MODENA CELADON ABORTED REPORTERS SIGNATORIES POMPADUR LAMBERTH REASSUME COBRAS INAUDIBLE MIGDAL ASSORTMENT ARTERBERRY STUDDARD LOIS SEPTEMBER BELLEVILLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_067, best cost 221.025 + 2613.67 = 2834.7 over 846 frames.
+ForcedAlignment_067 MOSBACHER NAAS DEMOSS BOSSI LINT AQUATIC SILL BEADLES ACQUITTAL BORDERS RITALIN HAIGH SILBERNAGEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_068, best cost 201.246 + 2195.49 = 2396.74 over 707 frames.
+ForcedAlignment_068 ADELBERT BAYARD BIGOTRY KIZZIAH OTTUM ZUBA BARBERS DEDUCTIBLES OPPOSITE WINTLE LOCOMOTIVES OBRIAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_069, best cost 73.959 + 857.253 = 931.212 over 290 frames.
+ForcedAlignment_069 REPORTABLE MYSTICAL DICTAPHONE DEMOSS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_070, best cost 16.5589 + 78.5449 = 95.1038 over 34 frames.
+ForcedAlignment_070 GAIT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_071, best cost 144.57 + 1221.3 = 1365.87 over 410 frames.
+ForcedAlignment_071 ALUN BASSIR STRANGLED RICHERD UNDERFOOT OUTBACK ADDERLEY STUBBORN OTTOSEN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_072, best cost 38.2977 + 416.028 = 454.326 over 133 frames.
+ForcedAlignment_072 EDMONSTON TEBUTHIURON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_073, best cost 330.815 + 4204.49 = 4535.31 over 1341 frames.
+ForcedAlignment_073 ELBOWED NOVOSEL DIGNITY SEGREGATED LITTEKEN PITIABLE ARDOR BORCHERS COUPLED SILL GIDDY SICKENED ULTIMA MOSTYN VIENNEAU BIRCHLER GOBBLED SILL WUNSCHEL CASSELLA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_074, best cost 167.194 + 2100.03 = 2267.23 over 646 frames.
+ForcedAlignment_074 REHABILITY FORMIDABLE SAGAS GILBRETH COUPLED SICKEST ANAGNOS GABON SYLLABLES SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_075, best cost 67.9737 + 704.791 = 772.764 over 225 frames.
+ForcedAlignment_075 GESTAPO NGUYEN ADULTERERS SALAH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_076, best cost 130.952 + 1232.06 = 1363.01 over 377 frames.
+ForcedAlignment_076 AUDAS BLUESTONE VOGL SQUABBLE LOMAS AMABILE PITIFUL SUBTITLED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_077, best cost 18.4356 + 730.325 = 748.761 over 203 frames.
+ForcedAlignment_077 SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_078, best cost 35.6267 + 360.336 = 395.963 over 117 frames.
+ForcedAlignment_078 HISTORIC BUNDLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_079, best cost 52.3311 + 457.998 = 510.329 over 163 frames.
+ForcedAlignment_079 ORCHID NETBACK GAMA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_080, best cost 151.928 + 1533.19 = 1685.12 over 515 frames.
+ForcedAlignment_080 SIPPLE SOSSAMON ORTNER BOLKOW WANNEMACHER GORBY DELPOZO SEQUEL CANDELABRA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_081, best cost 85.9494 + 1001.85 = 1087.8 over 329 frames.
+ForcedAlignment_081 LUBBERS GODBOUT YEP WANNEMACHER SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_082, best cost 37.9843 + 438.562 = 476.547 over 159 frames.
+ForcedAlignment_082 VINICIO DEDUCTED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_083, best cost 65.9853 + 545.69 = 611.675 over 173 frames.
+ForcedAlignment_083 ABIO BOESEL SIGNALS DOUBLES 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_084, best cost 171.593 + 1629.01 = 1800.6 over 521 frames.
+ForcedAlignment_084 LIGHTCAP BUSIER DETRITUS DUBLIN BERGENDAHL HILBERT GLUNT ADULTERER STUMBLES ABABA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_085, best cost 50.8783 + 438.587 = 489.465 over 153 frames.
+ForcedAlignment_085 KNIPPEL SULTANATE SHORTALL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_086, best cost 48.8356 + 378.53 = 427.366 over 118 frames.
+ForcedAlignment_086 INIMICAL COMMUNAL MCFATTER 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_087, best cost 67.18 + 682.62 = 749.8 over 229 frames.
+ForcedAlignment_087 GELETTE BAVARIA PRETTIER CINEMA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_088, best cost 100.873 + 972.557 = 1073.43 over 308 frames.
+ForcedAlignment_088 APPROVABLE KIMONOS ANKLEBONE RUFFLES BOESEL KODAMA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_089, best cost 32.9299 + 463.186 = 496.116 over 146 frames.
+ForcedAlignment_089 AYON GRILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_090, best cost 51.4703 + 439.725 = 491.196 over 140 frames.
+ForcedAlignment_090 MOLER BILTMORE FLIPPIN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_091, best cost 17.4802 + 334.759 = 352.239 over 100 frames.
+ForcedAlignment_091 SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_092, best cost 33.6008 + 227.233 = 260.834 over 76 frames.
+ForcedAlignment_092 SCHERZ BOESEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_093, best cost 115.971 + 1126.48 = 1242.46 over 356 frames.
+ForcedAlignment_093 ALGAL CADOTTE LOBBIES PANDOLFO SPLICHAL SORDID HISPANO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_094, best cost 65.2011 + 536.825 = 602.026 over 172 frames.
+ForcedAlignment_094 KNISPEL SORCHA DOBIES DOORMAT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_095, best cost 33.2565 + 217.322 = 250.579 over 71 frames.
+ForcedAlignment_095 MUTINIES BONNELL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_096, best cost 72.1774 + 1010.96 = 1083.14 over 362 frames.
+ForcedAlignment_096 EAGERLY DUBACH PAGODA ELDON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_097, best cost 116.381 + 1234.25 = 1350.63 over 401 frames.
+ForcedAlignment_097 RELABEL BJORKLUND DAPICE STONEBRAKER BOLDNESS UNDERGO LICEA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_098, best cost 140.102 + 1544.22 = 1684.32 over 480 frames.
+ForcedAlignment_098 EAT YAGODA METABOLIC UNSUPPORTED ALCORTA METHADONE INADEQUATE WOGOMAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_099, best cost 90.9827 + 1186.77 = 1277.75 over 370 frames.
+ForcedAlignment_099 HISTORICAL LEOPOLD MULTIPLE BIALKIN SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_100, best cost 101.157 + 1180.74 = 1281.9 over 373 frames.
+ForcedAlignment_100 IMPROBABLE MOPBOARD DARKEST ALBEIT BOBLITT SYDOW 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_101, best cost 68.1738 + 685.45 = 753.624 over 229 frames.
+ForcedAlignment_101 MONGOLIA POSSIBLE LABOSSIERE THADDEA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_102, best cost 17.6863 + 131.258 = 148.944 over 40 frames.
+ForcedAlignment_102 ORGILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_103, best cost 187.275 + 2105.06 = 2292.33 over 682 frames.
+ForcedAlignment_103 BISIGNANO POETIC AVAILABILITY REBUTTING CONTINENTAL BIESECKER ABORTIVE NICOLAU MELODRAMAS GUILDHALL SUPERDOT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_104, best cost 51.1018 + 488.691 = 539.793 over 164 frames.
+ForcedAlignment_104 MISTLER BRANDIS DECENNIAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_105, best cost 49.2342 + 356.119 = 405.354 over 121 frames.
+ForcedAlignment_105 MOZARTEAN ZIMDARS SIEMEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_106, best cost 25.3548 + 392.797 = 418.152 over 133 frames.
+ForcedAlignment_106 DISORIENTED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_107, best cost 116.408 + 1111.92 = 1228.33 over 370 frames.
+ForcedAlignment_107 GOEBEL GOLDA GOGO NORM SOONEST EQUIVOCAL SEQUELS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_108, best cost 130.712 + 1120.83 = 1251.54 over 354 frames.
+ForcedAlignment_108 STIRS BOESEL DEBACLE GLOBULINS BRIGANTE LOOKABILL BUBLITZ YORBA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_109, best cost 185.481 + 1765.9 = 1951.38 over 569 frames.
+ForcedAlignment_109 SILBAUGH FABIA CITY THICKET GIGGLED DEMOTT PIZANO ASTOUNDED IGNORE HEELS DEMIRJIAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_110, best cost 195.168 + 2131.55 = 2326.72 over 734 frames.
+ForcedAlignment_110 VALENTINA HUMISTON ORCHARD DIPPERS BURCIAGA SUNDOWN OCCUPANT EXTOLS GAELIC YQUEM YANDELL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_111, best cost 540.463 + 8297.91 = 8838.38 over 2563 frames.
+ForcedAlignment_111 AILMENT DIPLOMACY ETHIER LOGOS GILLESPIE LIVABLE DWANA SILL MEGALOPOLIS IA SILBERNAGEL GASICH SIBERT RESOLD APRILE PAYABLE LABAUVE PALACIO SILL AUBEL RUMBLES ADULTERATED DEPOSIT DADA WATERLOO SILL ORPHEUS TOASTERS YET SILL SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_112, best cost 494.153 + 6884.27 = 7378.42 over 2251 frames.
+ForcedAlignment_112 SILL BUMPAS KINEPOLIS SCIARRA BAMFORD NAWROT SIDDLE HALLBERG SILL BUGLES DUBACH MODELED LAPAGLIA DIDINIUM BUBBLED BEVILLE SILL GOODALE GIZBERT OPTICAL INCASE NOBLITT SILL PFIFFNER LATVALA BANOS LABODA ZIOBRO BRITNELL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_113, best cost 123.926 + 1443.52 = 1567.45 over 497 frames.
+ForcedAlignment_113 BALLOON SIMULATE REBUILT DAYLIGHT ALBACORE PORADA ORPHEUS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_114, best cost 207.855 + 2141.47 = 2349.33 over 659 frames.
+ForcedAlignment_114 SIBBY ZIKA PORZIO CUSTODIAN ALDA MULLICAN PRIVOTT BORDA ZIOBRO CONABLE CABEZAS INTERMODAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_115, best cost 36.1781 + 362.7 = 398.878 over 124 frames.
+ForcedAlignment_115 ESTOK VESTIGIAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_116, best cost 282.472 + 3089.45 = 3371.93 over 999 frames.
+ForcedAlignment_116 FIN NISBETT DEVELOPER CELEBRITIES IGUANAS WARNELL GRIBBLES DONALD SILL VIOLAS ABELN BAREFOOT VIRTUOSO ESCOBAR RADBORNE ASEA LOOKABILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_117, best cost 17.2103 + 209.571 = 226.782 over 61 frames.
+ForcedAlignment_117 SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_118, best cost 83.6189 + 1212.49 = 1296.11 over 385 frames.
+ForcedAlignment_118 EE WAMBOLD LANDOLFI BIGOT SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_119, best cost 85.8279 + 945.222 = 1031.05 over 298 frames.
+ForcedAlignment_119 BOZIAN MCKIERNAN BUTTING DAPONTE MESABA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_120, best cost 50.0832 + 432.749 = 482.832 over 137 frames.
+ForcedAlignment_120 EE NOBILE NAUGLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_121, best cost 17.4219 + 128.404 = 145.826 over 45 frames.
+ForcedAlignment_121 EATMAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_122, best cost 87.7922 + 1222.43 = 1310.22 over 399 frames.
+ForcedAlignment_122 AUBLE WARNOCK MONELL DUPRAS SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_123, best cost 32.7827 + 212.287 = 245.07 over 72 frames.
+ForcedAlignment_123 LAMBORN ASEA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_124, best cost 99.6398 + 960.465 = 1060.1 over 332 frames.
+ForcedAlignment_124 VESTIGIAL HOBOKEN OVERDOSED AMABILE RUNDALL SEDATE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_125, best cost 249.291 + 2401.4 = 2650.69 over 801 frames.
+ForcedAlignment_125 BAUGHMAN OLDFATHER NOZZLES BOISE EXPLETIVE PROJECTED EASTEP KAUL GOZO DIASA BIEDA LAPORTA ZEALANDERS REDOUBTABLE BURRISS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_126, best cost 15.9767 + 50.8455 = 66.8222 over 22 frames.
+ForcedAlignment_126 EH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_127, best cost 117.37 + 1898.76 = 2016.13 over 743 frames.
+ForcedAlignment_127 VALVO PENDYALA MONTVILLE CYNTHIE ABORTIVE ASEA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_128, best cost 36.1007 + 343.277 = 379.378 over 109 frames.
+ForcedAlignment_128 METHODICAL BOTTLES 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_129, best cost 82.6548 + 756.782 = 839.437 over 241 frames.
+ForcedAlignment_129 EADER BARKLOW BRISTLED CAMMISA SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_130, best cost 127.298 + 956.602 = 1083.9 over 321 frames.
+ForcedAlignment_130 LABONTE OLIVE BANOS LEBLOND BANOS MARVELS NAUGLES SISSEL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_131, best cost 171.642 + 2003.29 = 2174.93 over 637 frames.
+ForcedAlignment_131 LEFAUVE SILL DUBOISE VELOCITIES BOTTOM DIPLOMACY YORKBASED BOTTEL BOASTING GOLDMINE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_132, best cost 47.87 + 355.583 = 403.453 over 108 frames.
+ForcedAlignment_132 AUBLE GOBBLED LAPAGLIA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_133, best cost 99.6374 + 1023.12 = 1122.76 over 396 frames.
+ForcedAlignment_133 GUINDON BUILDUP FIFTH EDDIES DUSTED RETAIL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_134, best cost 32.9079 + 203.241 = 236.149 over 70 frames.
+ForcedAlignment_134 WADDED DUBUISSON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_135, best cost 32.8913 + 205.742 = 238.634 over 73 frames.
+ForcedAlignment_135 INURED FRISINA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_136, best cost 36.1824 + 652.711 = 688.893 over 204 frames.
+ForcedAlignment_136 YANDA BANVILLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_137, best cost 241.244 + 3021.38 = 3262.62 over 993 frames.
+ForcedAlignment_137 AYR FISSEL FORESEEABLE PINYAN INSUPPORTABLE REDOUBT ROBUSTAS AUGUSTA GOBBLED ABABA SILT SEAGAL THEOBALD RUDASILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_138, best cost 449.086 + 5553.86 = 6002.94 over 1788 frames.
+ForcedAlignment_138 UNACCOUNTABLE RESETTLED TUSSLED MEDIAN BUSBIN SILL BECKFORD LANGO CASTILLO KOGYO ABORTED DISAPPOINTED RAMADA TESTOSTERONE SYLLABUS BELKACEM DEPICTED AFFORDED OZBUN OMITTED GUSTO POOLED MONOPOLE SILL BORTLE PALACIO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_139, best cost 427.41 + 4292.12 = 4719.53 over 1397 frames.
+ForcedAlignment_139 MOLDABLE UNDISCIPLINED GODDESSES DEPORTED VIDIGO PORTABILITY APPROVABLE BUBOLZ SOPE PARTIDA YAPLE MALLIE BEVILLE QUADRUPLED WHIPPLE PORTABLE ASEA WOLD JOSEPHTHAL CINDERS HINOJOSA LABONTE AVAILABLE ASEA PORTABILITY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_140, best cost 182.86 + 1780.34 = 1963.2 over 570 frames.
+ForcedAlignment_140 INAPPLICABLE DZIAK BEADED THEIRS WEDNESDAYS DEVINCENT INTEGRAL FORTAS AUDIBLE ASTUTELY CORDLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_141, best cost 146.71 + 2584.54 = 2731.25 over 783 frames.
+ForcedAlignment_141 SILL DISPLAYS DITTIES SILBERNER CITADEL BARBANEL EDIBLE MUNDAY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_142, best cost 456.91 + 5646.22 = 6103.13 over 1761 frames.
+ForcedAlignment_142 BOISI OTTESEN SILKWORM SILL DIBUONO DOLED SILL PITIABLE TUGBOAT CIA ORY INTERPRETING SILL ENDLICH CORDOBAS GUBBELS GODBOLD SOBERS GUSTO BATTLED GASTELUM CROWBAR YUP REDOUBTABLE SILL OPALKA MUNGLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_143, best cost 85.9084 + 981.749 = 1067.66 over 292 frames.
+ForcedAlignment_143 ENCROACHES DARBLAY GLOBAL DUBROW POLYGONAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_144, best cost 249.594 + 2701.17 = 2950.77 over 899 frames.
+ForcedAlignment_144 CYCLICALITY AHMAD SOUTHERNMOST BONIFAY LUFKIN DICKISON BUIKEMA ADDICTED EMITTED ANTIQUATED ACQUITTAL DEPAUL JUNGLE MYTHICAL BUTTERBAUGH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_145, best cost 22.4873 + 332.632 = 355.119 over 120 frames.
+ForcedAlignment_145 BASSIR 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_146, best cost 16.5625 + 72.0634 = 88.6259 over 28 frames.
+ForcedAlignment_146 DULL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_147, best cost 36.541 + 352.57 = 389.111 over 130 frames.
+ForcedAlignment_147 METHAZINE GIBIAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_148, best cost 52.0753 + 517.009 = 569.085 over 168 frames.
+ForcedAlignment_148 ERTL COLUMBIA QUOTABLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_149, best cost 70.0764 + 733.157 = 803.233 over 222 frames.
+ForcedAlignment_149 GODBOLD UNPAYABLE BEAUDREAU GUTTERS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_150, best cost 18.4044 + 145.343 = 163.748 over 53 frames.
+ForcedAlignment_150 CABEZAS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_151, best cost 56.9771 + 790.289 = 847.267 over 284 frames.
+ForcedAlignment_151 HOLTAN LAFOND VENCILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_152, best cost 189.725 + 2418.95 = 2608.67 over 767 frames.
+ForcedAlignment_152 ABBADO BUBBLED PICOULT MOTILE WAND PEOPLED SPATOLA WALBERG IM IMMATURE SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_153, best cost 86.6908 + 926.07 = 1012.76 over 287 frames.
+ForcedAlignment_153 BUILDABLE GABON WOBBLE GABA EQUABLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_154, best cost 83.0186 + 717.385 = 800.404 over 228 frames.
+ForcedAlignment_154 JURANEK AMENABLE CORDLESS COGNIZANT LOGWOOD 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_155, best cost 219.043 + 2083.51 = 2302.56 over 677 frames.
+ForcedAlignment_155 LUNDBLAD AGRONOMIST ONDRACEK CYLINDER LABADIE BASALT JOGGED EXUDE COLDLY GOETTL SABIN SILBERNAGEL PICTET 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_156, best cost 120.532 + 1404.59 = 1525.12 over 446 frames.
+ForcedAlignment_156 LITTLEBOY ODONNELL SIGAL HEASTON SEQUOIAS GROUPIES DOUMA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_157, best cost 51.0301 + 474.526 = 525.556 over 151 frames.
+ForcedAlignment_157 NEPL GUPPIES DOORMAT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_158, best cost 32.8327 + 320.793 = 353.626 over 119 frames.
+ForcedAlignment_158 IGOE MACDILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_159, best cost 38.1251 + 490.973 = 529.098 over 160 frames.
+ForcedAlignment_159 LIVID ELECTRONICALLY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_160, best cost 52.0645 + 664.849 = 716.913 over 227 frames.
+ForcedAlignment_160 CYPRIOT MIRELEZ GOODWILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_161, best cost 16.0198 + 40.4375 = 56.4573 over 17 frames.
+ForcedAlignment_161 HEED 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_162, best cost 35.0197 + 313.088 = 348.108 over 100 frames.
+ForcedAlignment_162 KUZEL FORDHAM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_163, best cost 65.6163 + 555.876 = 621.493 over 168 frames.
+ForcedAlignment_163 ALLPORT INAUDIBLE YOAKAM BABA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_164, best cost 16.9088 + 83.0502 = 99.959 over 29 frames.
+ForcedAlignment_164 RITTLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_165, best cost 269.725 + 3293.23 = 3562.96 over 1085 frames.
+ForcedAlignment_165 ADELBERT ORGILL MEIDL ESCOBAR JAUNTY ZIRKELBACH COMPETENT RAPOPORT THE SILL JONN LIDDICOAT AHMADI FRUCHTMAN UPPERMOST BARBIAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_166, best cost 152.286 + 1541.47 = 1693.76 over 504 frames.
+ForcedAlignment_166 SITKA BENIGN ERSKINE VINDICTIVE QUIGGLE OAKMONT FORDHAM IMPORTER PERSIA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_167, best cost 48.7123 + 404.62 = 453.332 over 134 frames.
+ForcedAlignment_167 SEAGULL ESSAYS ALDOUS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_168, best cost 102.458 + 1207.25 = 1309.71 over 366 frames.
+ForcedAlignment_168 SCIPIO CORDIS DONAT UDALL BORDONARO SITTS 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_169, best cost 84.4567 + 873.566 = 958.023 over 286 frames.
+ForcedAlignment_169 LEGIBLE OCTAGON JUSTIS BATISTA LABUDA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_170, best cost 117.879 + 1370.87 = 1488.75 over 422 frames.
+ForcedAlignment_170 SYMBOLIZE BLONDELL WEYGANDT POPA MANGANO CORTLAND PROBABILITIES 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_171, best cost 187.653 + 1722.04 = 1909.69 over 561 frames.
+ForcedAlignment_171 VISA KIMMEY SURRETT EFFECTIVE SAWDUST OUTBACK DARNALL POLLUTANT KRISTALLNACHT OPERAS PROSORBA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_172, best cost 49.9627 + 561.182 = 611.145 over 170 frames.
+ForcedAlignment_172 ADOBE IKLE DUNHILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_173, best cost 5.8643 + 95.2384 = 101.103 over 36 frames.
+ForcedAlignment_173 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_174, best cost 17.399 + 111.367 = 128.766 over 38 frames.
+ForcedAlignment_174 ALGAR 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_175, best cost 53.0619 + 778.533 = 831.595 over 240 frames.
+ForcedAlignment_175 MOSCA NONEXISTENT MCCONVILLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_176, best cost 265.272 + 2498.61 = 2763.89 over 884 frames.
+ForcedAlignment_176 GENITAL MEIDL DEBARTOLOS MARKOWICZ VOLATILE SICKEST LOBATO SLIPPAGE OZOLS VALBORGA SYLLABLES GOUT INNOPAC DANTE ADAY SHON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_177, best cost 287.013 + 3050.59 = 3337.6 over 1040 frames.
+ForcedAlignment_177 SADAO ARKOSE OGLEBAY ROBEL DEBATABLE UNBUILDABLE DESILVA GODBOUT ULTIMA MAZEIKA PASQUA GUMBEL GABON GIESECKE DEFENDED YAMADA NEVILLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_178, best cost 707.808 + 9588.42 = 10296.2 over 3048 frames.
+ForcedAlignment_178 ALBERGO LUDLAM OHLMAN SOCKET PREDOMINANT CONVICTED ACUTELY DEMOTT WIL SIBILLE LABODA BOLCOM AUDUBON BALUKAS BEGIN SISSEL SILL KONDAS SILL MARKUNAS DECWORLD ABABA PROBABILITIES SID SYNAGOGUE BELINDA DEMOPOULOS HUKILL BAKA MONN BAISDEN YEA BEDIENT OTOMOBIL VERAS CYNTHIA SILL AGRESSIVE BONOMO CHISELED BAUBLES 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_179, best cost 148.239 + 1406.85 = 1555.08 over 439 frames.
+ForcedAlignment_179 HASTILY SUPPLEMENTING DUSTED MANON DOUBLES COMPTON BALICKI MARKETABLE SUBSIDIES 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_180, best cost 299.063 + 2783.39 = 3082.45 over 925 frames.
+ForcedAlignment_180 OLEY SAVAGES DAMATO DEJOSEPH DAUGHERTY EMBED BOLIVIA SEABAUGH SUNDEEN BORTLE DETHOMAS SONATAS APOSTLE BOUNDED BONUSES YAGODA CHARBONNEAU CHMURA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_181, best cost 85.1366 + 894.159 = 979.296 over 276 frames.
+ForcedAlignment_181 SILL BUTCHERED BICKERS GOBBLE TOMASULO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_182, best cost 49.5722 + 473.966 = 523.538 over 159 frames.
+ForcedAlignment_182 AUBLE SUBURB BONILLA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_183, best cost 245.487 + 2761.25 = 3006.73 over 863 frames.
+ForcedAlignment_183 SILL MENORAHS ISABELL PERFUME CADBURY MATSUNAGA BEDARD DOMAGALSKI LOSEKE BOBBO SOUTHERNER MARGULIS BONADONNA ENIGMA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_184, best cost 416.081 + 6072.59 = 6488.67 over 1896 frames.
+ForcedAlignment_184 HEAT DOMBEK BUBBLES UPTEGROVE CINNABAR FRASCA BORTNICK CONESTOGA WETHERBY BUBBLE SUBURB LIBERTIES ABOVEBOARD BANDEMER DEDUCTIBLE SILL SILL EXECUTOR THEOBALD EROSIVE SIBILLE EXHIBIT ATTITUDINAL LEBENTHAL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_185, best cost 48.6222 + 358.435 = 407.058 over 133 frames.
+ForcedAlignment_185 BUSBOY THUS SAIZ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_186, best cost 69.314 + 794.581 = 863.895 over 274 frames.
+ForcedAlignment_186 LOQUAT ISAIAH SINGLING BAHAMA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_187, best cost 102.4 + 1209.33 = 1311.73 over 425 frames.
+ForcedAlignment_187 SILL BONNIBELLE GABA ALIENS SANGYO AINGE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_188, best cost 144.596 + 3715.2 = 3859.79 over 1114 frames.
+ForcedAlignment_188 NESTA SILL UMBACH SILL LIBRETTO SILL NOLET SILL 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_189, best cost 308.095 + 3508.26 = 3816.36 over 1122 frames.
+ForcedAlignment_189 AUDUBON GULBUDDIN BISIGNANO JONAS ERUPTED PALPABLE GRINDLE PIEDBOEUF PEDESTAL DOSKOCIL ALCOCER DONNELL SIMONTON DESPICABLE ENNOBLE BUDNER BOSSART GARFINKEL 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 421 lattices.
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 421 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance ForcedAlignment_190, best cost 824.561 + 9253.22 = 10077.8 over 3027 frames.
+ForcedAlignment_190 CITIES ACOUSTICAL COLLISIONAL PORTICO DUMMITT FORGOT DIBRELL DOMEK DIATONIC BIGEYES BEGUN ITHACA SITKA ISTANBUL PADDIES FATHOMABLE PRODUCTIVE VOLTAGE OZAL SILVERSTONE GUSTO BARBECUES REJOINS COLLECTIBILITY SANDAL GAYLE SIDDALL MODERNITY JONAS ENTITLES BOBIER CONTRABASSOON EBRIGHT DORMOUSE GAUDETTE OZBUN ALBEN DOTT BETHESDA STICKA SOLBERG DROPLETS ARGOSY BOLSTAD LOCUST AVOCET SILL BUBBLE 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is 3.20792 = 0.223819 [graph] + 2.9841 [acoustic] over 311225 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 421 lattices, failed for 0
+# Accounting: time=33 threads=1
+# Ended (code 0) at Thu Aug 18 15:39:09 EDT 2016, elapsed time 33 seconds

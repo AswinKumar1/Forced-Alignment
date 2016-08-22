@@ -1,0 +1,7 @@
+# compile-train-graphs exp/tri3b/tree exp/tri3b/1.mdl data/lang/L.fst "ark:utils/sym2int.pl --map-oov 86098 -f 2- data/lang/words.txt < data/train/split20/4/text |" "ark:|gzip -c >exp/tri3b/fsts.4.gz" 
+# Started at Thu Aug 18 15:40:09 EDT 2016
+#
+compile-train-graphs exp/tri3b/tree exp/tri3b/1.mdl data/lang/L.fst 'ark:utils/sym2int.pl --map-oov 86098 -f 2- data/lang/words.txt < data/train/split20/4/text |' 'ark:|gzip -c >exp/tri3b/fsts.4.gz' 
+LOG (compile-train-graphs:main():compile-train-graphs.cc:151) compile-train-graphs: succeeded for 21 graphs, failed for 0
+# Accounting: time=4 threads=1
+# Ended (code 0) at Thu Aug 18 15:40:13 EDT 2016, elapsed time 4 seconds

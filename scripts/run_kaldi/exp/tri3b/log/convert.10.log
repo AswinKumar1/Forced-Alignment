@@ -1,0 +1,7 @@
+# convert-ali exp/tri2b_ali_emma/final.mdl exp/tri3b/1.mdl exp/tri3b/tree "ark:gunzip -c exp/tri2b_ali_emma/ali.10.gz|" "ark:|gzip -c >exp/tri3b/ali.10.gz" 
+# Started at Thu Aug 18 15:40:06 EDT 2016
+#
+convert-ali exp/tri2b_ali_emma/final.mdl exp/tri3b/1.mdl exp/tri3b/tree 'ark:gunzip -c exp/tri2b_ali_emma/ali.10.gz|' 'ark:|gzip -c >exp/tri3b/ali.10.gz' 
+LOG (convert-ali:main():convert-ali.cc:103) Succeeded converting alignments for 21 files, failed for 0
+# Accounting: time=2 threads=1
+# Ended (code 0) at Thu Aug 18 15:40:08 EDT 2016, elapsed time 2 seconds

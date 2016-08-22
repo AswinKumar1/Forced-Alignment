@@ -1,0 +1,5 @@
+# cat exp/tri2b/decode_test/scoring/13.tra | utils/int2sym.pl -f 2- exp/tri2b/graph_Wug/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:exp/tri2b/decode_test/scoring/test_filt.txt ark,p:- >& exp/tri2b/decode_test/wer_13 
+# Started at Thu Aug 18 15:39:10 EDT 2016
+#
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu Aug 18 15:39:11 EDT 2016, elapsed time 1 seconds

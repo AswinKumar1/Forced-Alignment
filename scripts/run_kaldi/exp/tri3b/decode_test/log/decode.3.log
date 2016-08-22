@@ -1,0 +1,57 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri3b/graph_Wug/words.txt exp/tri3b/final.mdl exp/tri3b/graph_Wug/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split20/3/utt2spk scp:data/test/split20/3/cmvn.scp scp:data/test/split20/3/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/tri3b/final.mat ark:- ark:- |" "ark:|gzip -c > exp/tri3b/decode_test/lat.3.gz" 
+# Started at Thu Aug 18 15:46:18 EDT 2016
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri3b/graph_Wug/words.txt exp/tri3b/final.mdl exp/tri3b/graph_Wug/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split20/3/utt2spk scp:data/test/split20/3/cmvn.scp scp:data/test/split20/3/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/tri3b/final.mat ark:- ark:- |' 'ark:|gzip -c > exp/tri3b/decode_test/lat.3.gz' 
+transform-feats exp/tri3b/final.mat ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split20/3/utt2spk scp:data/test/split20/3/cmvn.scp scp:data/test/split20/3/feats.scp ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+ForcedAlignment_044 CABLES DIDONATO UNSEAL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_044 is -4.48338 over 146 frames.
+ForcedAlignment_045 BRITTLE MOLDAVIA NOBLEMAN BOLAM BRITTLE PRINCES ABUT MOLDED WALLICK TRAUM BUECHELE AMITY BRASCADE SAUDIA BILTON BOLDA DOBLE BOLSTAD WINDELS ACCORDED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_045 is -4.38352 over 1205 frames.
+ForcedAlignment_046 THEE OUTGROW SALA KYGER LITTLETON BEVERLY VILLA 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_046 is -5.25765 over 215 frames.
+ForcedAlignment_047 VOYER ZUBROD WANDELL ARGONAUT KNOT NUNES SIMIAN BILLABLE YALE IZZO MASTEL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_047 is -4.40599 over 551 frames.
+ForcedAlignment_048 UBBEN BUTZER NOBILE DRUMM ALBEN DOUGALL JUHL MOONE GUMBINER SPONAUGLE GARTH FUMBLED BASEBOARDS GATE DARKEST AUBLE DUPRAS BAYONET MODELED WAMBOLDT KOLM BUBBLE CORNEL SEDONA YARDER CONDONE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_048 is -4.78325 over 1238 frames.
+ForcedAlignment_049 EMITTED BALLISTIC WEBERS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_049 is -4.94119 over 123 frames.
+ForcedAlignment_050 WARRICK BISMARK SIEBEL GILDA QUOTABLE SHORTENED ELDON BLIGHTED PERDITA BOTTLED GUNDY LOBDELL BERGENFIELD 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_050 is -4.90549 over 550 frames.
+ForcedAlignment_051 UNI GIBERT LUCKYN PICKETS AUDIBLE DOCKED YUTAKA BARTRAM BUTTERBAUGH FONTANELLA BOTTOM ADABELLE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_051 is -5.0306 over 488 frames.
+ForcedAlignment_052 WALDA NISBET OBLAK MASIN PORTALS ZEELAND ANOMALOUS JILTED BAEZA PRECEDENT HIPPODROME 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_052 is -4.58078 over 506 frames.
+ForcedAlignment_053 HONORIFIC GAIT TROMP DEEPENS ETHELYN CONTOS ACED DIBBLED MINGLE BAYONET PURDUM ASSISTED MINUTES WINDMILLER GERHART 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_053 is -4.66146 over 788 frames.
+ForcedAlignment_054 TOGETHERS TAGANKA DELAY PUTTABLE REPORTABLE ACIDIC FYODOR VARIABLE BIDDERS DISTASTE EDIBLES COLLECTIBLE BERKEBILE YBARBO SARTI RUM 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_054 is -5.02056 over 687 frames.
+ForcedAlignment_055 AMICABLY STORMED RIPPLED GODBOUT ABUTTED OVERBOARD LEFTISM BIEBEL ACETYLENE GABOR BOUT ANJA 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_055 is -4.98126 over 464 frames.
+ForcedAlignment_056 BOTHERED THORDIA BOTTLED LITTLEJOHN MARKWOOD LAPORTA SILBER ABOUT BREWBAKER GIZBERT SIGGERS GRUPPO PORTLAND DATO STAGE OAKLAND ALTOM 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_056 is -5.00055 over 766 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 21 utterances, errors on 0
+ForcedAlignment_057 GIZBERT BIZZELL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_057 is -4.76215 over 82 frames.
+ForcedAlignment_058 YEA INFLOWS PYRRHIC DIEGUEZ GAUNTLET FRUM FORDHAM MONARCHS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_058 is -4.70425 over 351 frames.
+ForcedAlignment_059 EAKIN GOEDEN QUITS DEMICHELE BONDAR SHORTENED GUNBY GODBOLD GINZBERG BUECHELE PRINCIPLED GUBBELS ABUT OPPEL SABAT KINNELL PITY APPRAISAL REPULSED BERGTHOLD DEPORTED DONATO OPERATIVE UNSEALED SICKLE APLOMB UDALL DOZEN SINDELAR KETTLE FOSSIL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_059 is -4.89259 over 1589 frames.
+ForcedAlignment_060 TANNAHILL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_060 is -3.72443 over 134 frames.
+ForcedAlignment_061 FINNAN VISTAS SEDUCER PRECEDENT AUGUSTA DURAKON TURN BASELESS BEGRUDGE JORGENSEN ABABA BERTINI OUTGAINED THAYNE WOBBLY STOCUM BARNYARD GRAUNKE VANDORN INNOCENCE DAWDLE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_061 is -4.53058 over 1125 frames.
+ForcedAlignment_062 THAYNE NEMES INAUDIBLE BOEPPLE GOTTA NERVOUS DUGALD 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_062 is -4.69103 over 348 frames.
+ForcedAlignment_063 ETHYL DOGBERRY LOATH BOBBO DIEGEL SPADA BORS DOLED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_063 is -4.92436 over 260 frames.
+LOG (transform-feats:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -91.0564 over 12193 frames.
+LOG (transform-feats:main():transform-feats.cc:161) Applied transform to 21 utterances; 0 had errors.
+ForcedAlignment_064 ALTHOUSE INDULGENT OSTINATO ABABA MASSACHUSSETTS EDITS ABUT WARREN GIFTED ALLERS JOGGER BRUMBELOW HEIDEL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_064 is -4.91624 over 577 frames.
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:175) Time taken 44.5423s: real-time factor assuming 100 frames/sec is 0.36531
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:178) Done 21 utterances, failed for 0
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:180) Overall log-likelihood per frame is -4.75032 over 12193 frames.
+# Accounting: time=45 threads=1
+# Ended (code 0) at Thu Aug 18 15:47:03 EDT 2016, elapsed time 45 seconds
